@@ -1,0 +1,247 @@
+﻿{% load staticfiles %}
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script type="text/javascript" src="/static/webpage/js/lib/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				var number = 0;
+				var path = "http://192.168.9.55:8080/blog/";
+				GetBlog();
+
+				function GetBlog(){
+					var url = path+"bloglist/";
+					var data = {
+						"number" 	: 	number
+					};
+					$.ajax({
+						type: 	"POST",
+						url : 	url,
+						data: 	data,
+						dataType: 	"json",
+						success: function(data){
+							console.log(data);
+							// data = $.parseJSON(data);
+							if(data["ErrorMessage"]){
+								
+								setTimeout(function(){
+									for(var i = 0; i <= number; i++){
+										$("#post-"+i).remove();
+									}
+									number = 0;
+									GetBlog();
+								}, 10000);
+								return;
+							}
+							ShowBlog(data);
+						},
+						error: function(){
+							console.log("error");
+							return;
+						}
+					});
+				}
+
+				function ShowBlog(data){
+					var author = data["Author"];
+					var msg = data["Content"];
+					var time = data["PublishData"];
+
+					var div_str;
+
+					number++;
+					
+					var div_left_height = GetDivHeight("content-body-left");
+					var content_height = $("#content-body-left").height();
+					var div_right_height = GetDivHeight("content-body-right");
+
+					var div_str = PostContent(author, msg, time, number);
+					$(div_str).appendTo("#content-body-left");
+					if($("#post-"+number).height()+40+div_left_height <= content_height){
+						$("#post-"+number).removeClass("hide");
+					}
+					else if($("#post-"+number).height()+40+div_right_height <= content_height){
+						$("#post-"+number).remove();
+						$(div_str).appendTo("#content-body-right");
+						if($("#post-"+number).height()+40+div_right_height <= content_height){
+							$("#post-"+number).removeClass("hide");
+						}
+					}
+					else{
+						$("#post-"+number).remove();
+						number--;
+						setTimeout(function(){
+							for(var i = 0; i <= number; i++){
+								$("#post-"+i).remove();
+							}
+							GetBlog();
+						}, 10000);
+						return;
+					}
+					GetBlog();
+				}
+
+				function GetDivHeight(id){
+					var div = $("#"+id+" .post-body");
+					var div_height = 0;
+
+					for(var i = 0; i < div.length; i++){
+						div_height += 40+$(div[i]).height();
+					}
+					return div_height
+				}
+
+				function PostContent(author, msg, time, id){
+					author = author || "匿名(700)";
+					time = time || "2013年12月02日00:25:03";
+					time = time.substring(0, 19);
+
+					if(!msg)
+						return;
+					var div_str = "<div id='post-"+id+"' class='post-body hide'>"+
+										"<div class='post-author'>"+
+											author+
+										"</div>"+
+										"<div class='box'>"+
+											"<div class='post-message'>"+
+												msg+
+											"</div>"+
+											"<div class='post-time'>"+
+												time+
+											"</div>"+
+										"</div>"+
+									"</div>";
+					return div_str;
+				}
+			});
+		</script>
+		<link rel="stylesheet" type="text/css" href="/static/webpage/css/basic.css">
+		<style type="text/css">
+			body{
+				padding: 112px 38px 34px 38px;
+				position: relative;
+			}
+
+			.post-body{
+				width: 100%;
+				margin-bottom: 40px;
+			}
+
+			.post-author, .post-time{
+				color: #cccccc;
+				font-size: 16px;
+			}
+
+			.post-message{
+				color: #333333;
+				font-size: 18px;
+				/*文本溢出换行*/
+				word-break: break-word;
+				/*合并空格，保留换行*/
+				white-space:pre-wrap;
+				margin-top: 18px;
+				margin-bottom: 18px;
+			}
+
+			.post-message, .post-time{
+				margin-left: 10px;
+			}
+
+			.box{
+				border-left: 4px solid #fbc56b;
+			}
+
+			#head{
+				margin-top: -112px;
+				position: relative;
+				height: 112px;
+				width: 100%;
+			}
+
+			#logo{
+				/*上下居中*/
+				position: absolute;
+				height: 46px;
+				margin: auto 0;
+				top: 0;
+				bottom: 0;
+				/**/
+			}
+
+			#notice{
+				right: 0;
+				height: 22px;
+				width: 45%;
+
+				color: #c76802;
+				font-size: 22px;
+
+				position: absolute;
+				margin: auto 0;
+				top: 0;
+				bottom: 0;
+			}
+
+			#content-body{
+				
+			}
+
+			#content-body-left, #content-body-right{
+				width: 45%;
+			}
+
+			#content-body-left{
+				left: 0;
+			}
+
+			#content-body-right{
+				margin-left: 10%;
+			}
+
+			#publish{
+				position: absolute;
+				margin: auto;
+				top: 0;
+				bottom: 0;
+				right: 0;
+				left: 0;
+				width: 40%;
+				height: 40%;
+			}
+
+			#publish-msg{
+				display: block;
+				margin: 0 auto;
+				width: 80%;
+				height: 50%;
+			}
+
+			#submit{
+				margin-left: 10%;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="head">
+			<div id="logo">
+				<img src="/static/webpage/img/logo.png">
+			</div>
+			<div id="notice">
+				<div id="notice-msg">
+					公告公告公告
+				</div>
+			</div>
+		</div>
+		<div id="content-body" class="fill-height">
+			<div id="content-body-left" class="left fill-height">
+			</div>
+			<div id="content-body-right" class="left fill-height">
+			</div>
+		</div>
+		<div id="publish" class="hide">
+			<textarea id="publish-msg">
+			</textarea>
+			<button id="submit">submit</button>
+		</div>
+	</body>
+</html>
