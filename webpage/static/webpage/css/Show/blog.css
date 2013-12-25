@@ -1,0 +1,83 @@
+﻿.post-body{
+	position: absolute;
+	width: 29%;
+}
+
+.post-author{
+	color: #666666;
+	font-size: 22px;
+}
+
+.post-time{
+	color: #666666;
+	font-size: 16px;
+	line-height: 16px;
+	height: 13px;
+	vertical-align: text-bottom;
+}
+
+.post-message{
+	color: #333333;
+	font-size: 28px;
+	/*文本溢出换行*/
+	word-break: break-word;
+	/*合并空格，保留换行*/
+	white-space:pre-wrap;
+	margin-top: 18px;
+	margin-bottom: 10px;
+}
+/*防止发送图片过大*/
+.post-body img{
+	max-width: 350px;
+	max-height: 200px; 
+}
+
+.post-message, .post-time{
+	margin-left: 15px;
+}
+
+.box{
+	border-left: 4px solid #fbc56b;
+}
+
+/*遮挡*/
+#screen{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	background-color: white;
+}
+
+/*about animation*/
+.frame0{
+	left: -521px;
+}
+
+.frame1{
+	left: 0px;
+}
+
+.frame2{
+	left: 521px;
+}
+
+.frame3{
+	left: 1042px;
+}
+
+.animation{
+	-webkit-transition-duration : 1s;
+	-webkit-transition-delay:	0s;
+	-webkit-transition-property: all;
+	-webkit-animation-timing-function: linear;
+}
+
+#content-body-frame1, #content-body-frame2, #content-body-frame3{
+	width: 29%;
+	left: 0;
+}
+
+#content-body{
+	width: 155%;
+}

@@ -1,0 +1,79 @@
+﻿/*主体部分设置*/
+#post-body-left, #post-body-right{
+	min-width: 266px;
+	width: 46%;
+}
+
+.post-box{
+	min-width: 254px;/*post-body-left-10*/
+	min-width: 95%;
+	border: 1px solid #e4e4e2;
+	background-color: #f8f8ee;
+	margin-top: 24px;
+}
+
+.post-box img{
+         	max-width: 200px; 
+}
+
+#post-body-left .post-box{
+	float: left;
+}
+
+#post-body-center .point{
+	z-index: 2;
+	position: absolute;
+	/*js生成top*/
+	left: 2px;
+}
+
+#post-body-right .post-box{
+	float: right;
+}
+
+.post-body{
+	width: 232px;
+	margin: 12px;
+}
+
+#post-body-center{
+	position: absolute;
+	width: 2px;
+	background-color: #efefef;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+}
+
+#post-body-center > .point{
+	left: -2px;
+	top: 20px;
+}
+
+#post-body-left .triangle{
+	position: absolute;
+	right: -10px;
+	top: 12px;
+}
+
+#post-body-right .triangle{
+	position: absolute;
+	left: -10px;
+	top: 36px;
+}
+
+.triangle > img{
+	height: 17px;
+	width: 10px;
+}
+
+#foot{
+	position: absolute;
+	margin:auto;
+	margin-bottom: 10px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 300px;
+	text-align: center;
+}

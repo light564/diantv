@@ -1,0 +1,52 @@
+﻿/*head logo notice*/
+#head{
+	height: 90px;
+}
+
+#logo > img, #logo{
+	height: 33px;
+}
+
+#logo{
+	/*上下居中*/
+	position: absolute;
+	margin: auto 0;
+	top: 0;
+	bottom: 0;
+	/**/
+	/*margin-left: 45px;*/
+	margin-left: 6%;
+}
+
+#notice{
+	height: 144px;
+	background-color: #f6f4f4;
+}
+
+#notice-body{
+	/*margin: 0 100px;*/
+	margin: 0 13%;
+}
+
+#dianlogo > img, #dianlogo{
+	height: 99px;
+}
+
+#dianlogo{
+	/*上下居中*/
+	position: absolute;
+	margin: auto 0;
+	top: 0;
+	bottom: 0;
+	/**/
+}
+
+#notice-msg{
+	clear: both;
+	width: 200px;
+	height: 20px;
+
+	color: #666633;
+	font-size: 18px;
+	text-align: right;
+}

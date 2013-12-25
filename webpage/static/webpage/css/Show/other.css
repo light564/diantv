@@ -1,0 +1,42 @@
+﻿body{
+	padding: 132px 60px 34px 60px;
+	position: relative;
+	overflow: hidden;
+}
+
+.alert-msg{
+	position: absolute;
+	width: 300px;
+	height: 40px;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+.frame-margin-left{
+	margin-left: 6.5%;
+}
+
+#info-tv{
+	position: absolute;
+	right: 15px;
+	bottom: 15px;
+	z-index: 3;
+}
+
+#diantv-author{
+	font-size: 11px;
+	color: #999999;
+	top: 88px;
+}
+
+#post-url{
+	margin-left: 15px;
+}
+
+#post-url img{
+	width: 105px;
+	height: 105px;
+}

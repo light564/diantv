@@ -1,0 +1,65 @@
+﻿#head{
+	margin-top: -132px;
+	position: absolute;
+	height: 132px;
+	width: 100%;
+	left: 0;
+}
+
+#logo{
+	/*上下居中*/
+	position: absolute;
+	height: 46px;
+	margin: auto 0;
+	top: 0;
+	bottom: 0;
+	/**/
+	width: 240px;
+	z-index: 2;
+	background-color: white;
+}
+
+#notice{
+	right: 0;
+	height: 35px;
+	width: 65%;
+
+	color: #993300;
+	font-size: 35px;
+	font-weight: bold;
+
+	position: absolute;
+	margin: auto 0;
+	top: 0;
+	bottom: 0;
+}
+
+#logo > img{
+	position: absolute;
+	right: 20px;
+}
+
+/*about animation*/
+
+.notice{
+	-webkit-transition-duration : 8s;
+	-webkit-transition-delay:	0s;
+	-webkit-transition-property: all;
+	-webkit-animation-timing-function: linear;
+	position: absolute;
+	width: 100%;
+}
+
+.notice-out-left{
+	left: -512px;
+	opacity: 0;
+}
+
+.notice-show{
+	left: 0;
+	opacity: 1;
+}
+
+.notice-out-right{
+	left: 670px;
+}

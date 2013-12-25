@@ -1,490 +1,15 @@
-﻿{% load staticfiles %}
-<html>
+﻿<html>
 	<head>
 		<meta charset="utf-8">
-		<script type="text/javascript" src="/static/webpage/js/lib/jquery-1.7.1.min.js"></script>
-		<script type="text/javascript">
-			$(document).ready(function(){
-				var WinWidth = $("body").css("width");
-				var string1 = "说点好玩的吧～";
-				var string2 = "说点好玩的吧～";
-				var string3 = "雁过留名儿～";
-				var number = 0;
-				var path = "http://192.168.9.55:8080/blog/";
-				WinWidth = parseInt(WinWidth);
-				
-				$(window).resize(function(){
-					var temp = $("body").css("width");
-					temp = parseInt(temp);
-					WinWidth = temp < 1180 ? 1180 : temp;
-					EleResize();
-				});
-
-				EleResize();
-				GetBlog();
-
-				$(document).click(function(event){
-					var target = event.target;
-					if(target.id == "publish-button" || $(target).parent().attr("id") == "publish-button"){
-						var author = $("#publish-author").val();
-						var msg = $("#publish-msg").val();
-						PublishMsg(author, msg);
-					}
-
-					if(target.id != "publish-msg" && target.id != "publish-author"){
-						$("#publish").fadeOut("3000",function(){
-							var temp = $("#show-input");
-							temp.fadeIn("3000");
-							temp.val(string1);
-						});
-					}
-				});
-
-				$("#show-input").focus(function(){
-					$("#show-input").fadeOut("3000",function(){
-						$("#publish").fadeIn("3000");
-
-						var temp = $("#publish-msg");
-						if(temp.val() == ""){
-							temp.val(string2);
-							temp.css("color","#d9d9d9")
-						}
-
-						var temp = $("#publish-author");
-						if(temp.val() == ""){
-							temp.val(string3);
-							temp.css("color","#d9d9d9")
-						}
-					});
-				});
-
-				$("#publish-msg").focus(function(){
-					var temp = $("#publish-msg");
-					if(temp.val() == string2){
-						temp.val("");
-					}
-					temp.css("color","#000")
-				});
-
-				$("#publish-author").focus(function(){
-					var temp = $("#publish-author");
-					if(temp.val() == string3){
-						temp.val("");
-					}
-					temp.css("color","#000")
-				});
-
-				function EleResize(){
-					var width = $("#main").css("margin-left");
-					width = parseInt(width) > 0 ? parseInt(width) : 0;
-					$("#bg-left").css("width", width);
-
-					width = $("#main").css("margin-right");
-					width = parseInt(width) > 0 ? parseInt(width) : 0;
-					$("#bg-right").css("width", width);
-
-					var height = $(document).innerHeight();//window包含了滑动条长度
-
-					$("#body").css("min-height", height-112-180);
-					DrawLine();
-				}
-
-				function DrawLine(){
-					var height = $("#body").css("height");//window包含了滑动条长度
-
-					height = parseInt(height) > 0 ? parseInt(height) : 0;
-
-					$("#post-body-center").css("height", height-53);
-				}
-
-				function PublishMsg(author, msg){
-					var url = path+"publish/";
-					var data = {
-						"author" 	: 	author,
-						"message" 	: 	msg
-					};
-					$.ajax({
-						type: 	"POST",
-						url : 	url,
-						data: 	data,
-						dataType: 	"json",
-						success: function(data){
-							console.log(data);
-							console.log("finish");
-							setTimeout(window.location.reload(true), 5000);
-							// data = $.parseJSON(data);
-						}
-					});
-				}
-
-				function GetBlog(){
-					var url = path+"bloglist/";
-					var data = {
-						"number" 	: 	number
-					};
-					$.ajax({
-						type: 	"POST",
-						url : 	url,
-						data: 	data,
-						dataType: 	"json",
-						success: function(data){
-							console.log(data);
-							// data = $.parseJSON(data);
-							if(data["ErrorMessage"]){
-								return;
-							}
-							ShowBlog(data);
-						},
-						error: function(){
-							console.log("error");
-							return;
-						}
-					});
-				}
-
-				function ShowBlog(data){
-					var author = data["Author"];
-					var msg = data["Content"];
-					var time = data["PublishData"];
-
-					var div_str;
-
-					var div_left_height = GetDivHeight("post-body-left");
-					var div_right_height = GetDivHeight("post-body-right");
-
-					if(div_left_height - div_right_height >= 90){
-						div_str  = PostContent(author, msg, time, number, "left");
-						$(div_str).appendTo("#post-body-right");
-					}
-					else{
-						div_str  = PostContent(author, msg, time, number, "right");
-						$(div_str).appendTo("#post-body-left");
-					}
-					number++;
-					DrawLine()
-					GetBlog();
-				}
-
-				function GetDivHeight(id){
-					var div = $("#"+id+" .post-box");
-					var div_height = 0;
-
-					for(var i = 0; i < div.length; i++){
-						div_height += 24+parseInt($(div[i]).height());
-					}
-					return div_height
-				}
-
-				function PostContent(author, msg, time, id, triangle){
-					author = author || "匿名(700)";
-					time = time || "2013-12-02 00:25:03";
-					var year = time.substring(0, 4);
-					var month = time.substring(5, 7);
-					var day = time.substring(8, 10);
-					time = time.substring(11, 19);
-					id = number;
-					if(!msg)
-						return;
-					var div_str = "<div id='post-"+id+"' class='post-box'>"+
-									"<div class='post-body'>"+
-										"<div class='msg-info left'>"+
-											"<div class='time left'>"+
-												"<div class='left'>"+
-													"<div class='day'>"+
-														day+
-													"</div>"+
-												"</div>"+
-												"<div class='left'>"+
-													"<div class='month'>"+
-														month+"月"+
-													"</div>"+
-													"<div class='year'>"+
-														year+
-													"</div>"+
-												"</div>"+
-											"</div>"+
-											"<div class='author left'>"+
-												author+":"+
-											"</div>"+
-										"</div>"+
-										"<div class='post-msg'>"+
-											msg+
-										"</div>"+
-									"</div>"+
-									"<div class='triangle'>"+
-										"<img src='/static/webpage/img/dianTV_client/triangle_"+triangle+".png'>"+
-									"</div>"+
-									"<div class='point'>"+
-										"<img src='/static/webpage/img/dianTV_client/绿点.png'>"+
-									"</div>"+
-								"</div>";
-					return div_str;
-				}
-			});
-		</script>
+		<script data-main="/static/webpage/js/script/Client/main.js" src="/static/webpage/js/lib/require.js" type="text/javascript"></script>
 		<link rel="stylesheet" type="text/css" href="/static/webpage/css/basic.css">
-		<style type="text/css">
-			body{
-				background-color: #dbdbdb;
-				min-width: 1300px;
-				overflow-x: hidden;
-			}
-
-			#bg-left, #bg-right{
-				/*background-color: #ccc;*/
-				position: fixed;
-			}
-
-			#bg-left{
-				left: 0;
-			}
-
-			#bg-right{
-				right: 0;
-			}
-
-			#main{
-				width: 780px;
-				background-color: #ffffff;
-				z-index: 1;
-				position: absolute;
-				margin: 0 auto;
-				left: 0;
-				right: 0;
-			}
-
-			#bg-left-img{
-				position: absolute;
-				right: 0;
-				bottom: 0;
-			}
-
-			#head{
-				height: 112px;
-			}
-
-			#logo{
-				/*上下居中*/
-				position: absolute;
-				margin: auto 0;
-				height: 41px;
-				top: 0;
-				bottom: 0;
-				/**/
-				margin-left: 45px;
-			}
-
-			#notice{
-				height: 180px;
-				background-color: #f6f4f4;
-			}
-
-			#notice-body{
-				margin: 0 100px;
-			}
-
-			#dianlogo{
-				/*上下居中*/
-				position: absolute;
-				margin: auto 0;
-				height: 124px;
-				top: 0;
-				bottom: 0;
-				/**/
-			}
-
-			#notice-title{
-				width: 138px;
-				height: 29px;
-				margin: 27px 0;
-				border-bottom: 2px solid #afae04;
-
-				color: #999900;
-				font-size: 22px;
-				text-align: right;
-			}
-
-			#notice-msg{
-				clear: both;
-				width: 200px;
-				height: 20px;
-
-				color: #666633;
-				font-size: 18px;
-				text-align: right;
-			}
-
-			#body{
-				margin: 0 100px;
-				width: 576px;
-			}
-
-			#body > div:first-child{				
-				height: 33px;
-			}
-
-			#publish{
-				position: absolute;
-				top: 0px;
-				z-index: 2;
-			}
-
-			#body > div:first-child, #publish{
-				margin-top: 20px;			
-			}
-
-			#publish-msg, #publish-author, #show-input{
-				color: #d9d9d9;
-				font-size: 14px;
-			}
-
-			#show-input{
-				height: 100%;
-			}
-
-			#input{
-				width: 512px;
-			}
-
-			#publish-author{
-				height: 35px;
-			}
-
-			#publish-msg{
-				height: 65px;
-				text-align: left;
-			}
-
-			#publish-button{
-				width: 63px;
-				height: 98px;
-				border: 1px solid #cdcdcd;
-				border-left: 0;
-				background-color: #FFF;
-
-				cursor: hand;
-			}
-
-			#publish-button img{
-				/*上下居中*/
-				position: absolute;
-				margin: auto;
-				top: 0;
-				bottom: 0;
-				left: 0;
-				right: 0;
-				/**/
-			}
-
-			#post-body-left, #post-body-right{
-				width: 266px;
-			}
-
-			.post-box{
-				width: 254px;/*post-body-left-10*/
-				border: 1px solid #e4e4e2;
-				background-color: #f8f8ee;
-				margin-top: 24px;
-			}
-
-			#post-body-left .post-box{
-				float: left;
-			}
-
-			#post-body-left .point{
-				z-index: 2;
-				position: absolute;
-				right: -36px;
-				top: 18px;
-			}
-
-			#post-body-right .post-box{
-				float: right;
-			}
-
-			#post-body-right .point{
-				z-index: 2;
-				position: absolute;
-				left: -36px;
-				top: 41px;
-			}
-
-			.post-body{
-				width: 232px;
-				margin: 12px;
-			}
-
-			.day{
-				height: 24px;
-				margin-right: 10px;
-
-				color: #adb001;
-				font-size: 30px;
-				line-height: 23px;
-			}
-
-			.month, .year{
-				height: 12px;
-				margin-right: 15px;
-
-				color: #999999;
-				font-size: 11px;
-				line-height: 12px;
-			}
-
-			.author{
-				color: #999999;
-				font-size: 16px;
-			}
-
-			.post-msg{
-				color: #666633;
-				font-size: 16px;
-				/*文本溢出换行*/
-				word-break: break-word;
-				/*合并空格，保留换行*/
-				white-space:pre-wrap;
-				clear: left;
-			}
-
-			.msg-info{
-				margin-bottom: 20px;
-			}
-
-			#post-body-center{
-				position: absolute;
-				width: 2px;
-				background-color: #efefef;
-
-				margin: 0 auto;
-				left: 0;
-				right: 0;
-			}
-
-			#post-body-center > .point{
-				left: -2px;
-				top: 20px;
-			}
-
-			#post-body-left .triangle{
-				position: absolute;
-				right: -10px;
-				top: 12px;
-			}
-
-			#post-body-right .triangle{
-				position: absolute;
-				left: -10px;
-				top: 36px;
-			}
-
-			.triangle > img{
-				height: 17px;
-				width: 10px;
-			}
-		</style>
+		<link rel="stylesheet" type="text/css" href="/static/webpage/css/Client/head.css">
+		<link rel="stylesheet" type="text/css" href="/static/webpage/css/Client/text.css">
+		<link rel="stylesheet" type="text/css" href="/static/webpage/css/Client/body.css">
+		<link rel="stylesheet" type="text/css" href="/static/webpage/css/Client/other.css">
+		
 	</head>
-	<body>
+	<body class="hide">
 		<div id="bg-left" class="fill-height">
 			<div id="bg-left-img" class="">
 				<img src="/static/webpage/img/dianTV_client/左边色块.png">
@@ -506,7 +31,7 @@
 							NOTICE
 						</div>
 						<div id="notice-msg" class="right">
-							Hello World!
+							
 						</div>
 					</div>
 				</div>
@@ -519,7 +44,13 @@
 					<div id="publish" class="hide">
 						<div id="input" class="left">
 							<textarea id="publish-msg" class="fill-width">说点好玩的吧～</textarea>
-							<input id="publish-author" class="fill-width" type="text" value="雁过留名儿～">
+							<div id="msg-range" class="hide">
+								不多于140个字
+							</div>
+							<input id="publish-author" class="fill-width" type="text" value="匿名">
+							<div id="author-range" class="hide">
+								不多于15个字
+							</div>
 						</div>
 						<div id="publish-button" class="left">
 							<img src="/static/webpage/img/dianTV_client/发送.png">
@@ -534,11 +65,22 @@
 						</div>
 					</div>
 				</div>
+				<div id="foot">
+					<div id="copyright">
+						Copyright ? 2013, Dian团队
+					</div>
+					<div id="hust">
+						华中科技大学
+					</div>
+				</div>
 			</div>
 		</div>
 		<div id="bg-right" class="fill-height">
 			<div id="bg-right-img" class="left">
 				<img src="/static/webpage/img/dianTV_client/右边色块.png">
+			</div>
+			<div id="goto-top">
+				<img src="/static/webpage/img/dianTV_client/海豚.png">
 			</div>
 		</div>
 	</body>

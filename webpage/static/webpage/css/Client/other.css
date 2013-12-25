@@ -1,0 +1,151 @@
+﻿/*body和左中右3个div设置*/
+body{
+	background-color: #dbdbdb;
+	min-width: 1300px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+#bg-left, #bg-right{
+	/*background-color: #ccc;*/
+	position: fixed;
+}
+
+#bg-left{
+	left: 0;
+}
+
+#bg-right{
+	right: 0;
+}
+
+#main{
+	width: 51%;
+	min-width: 780px;
+	background-color: #ffffff;
+	z-index: 1;
+	position: absolute;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+}
+
+#bg-left-img{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+#goto-top{
+	cursor: hand;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.alert-msg{
+	position: absolute;
+	width: 300px;
+	height: 40px;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+/*主体和publish*/
+#body{
+	/*margin: 0 100px;*/
+	margin: 0 13%;
+	margin-bottom: 86px;
+	width: 73%;
+	min-width: 576px;
+}
+
+#body > div:first-child{				
+	height: 33px;
+}
+
+#publish{
+	position: absolute;
+	top: 0px;
+	z-index: 3;
+	width: 100%;
+}
+
+#body > div:first-child, #publish{
+	margin-top: 20px;			
+}
+
+#publish-msg, #publish-author, #show-input{
+	color: #d9d9d9;
+	font-size: 14px;
+}
+
+#msg-range{
+	position: absolute;
+	right: 5px;
+	font-size: 15px;
+	top: 47px;
+	height: 18px;
+	color: #cdcdcd;
+}
+
+#author-range{
+	position: absolute;
+	right: 5px;
+	font-size: 15px;
+	top: 82px;
+	height: 18px;
+	color: #cdcdcd;
+}
+
+#show-input{
+	height: 100%;
+}
+
+#input{
+	min-width: 512px;
+	width: 89%;
+}
+
+#publish-author{
+	height: 35px;
+	border: 1px solid #cdcdcd;
+}
+
+#publish-msg{
+	height: 65px;
+	text-align: left;
+	max-height: 65px;
+	max-width: 100%;
+	border: 1px solid #cdcdcd;
+}
+
+#publish-msg:focus, #publish-author:focus{
+	border: 1px solid #cdcdcd;
+	outline: none !important;
+	box-shadow: 0 0 10px #cdcdcd;
+}
+
+#publish-button{
+	width: 11%;
+	min-width: 63px;
+	margin-left: -2px;
+	height: 98px;
+	border: 1px solid #cdcdcd;
+	background-color: #FFF;
+	cursor: hand;
+}
+
+#publish-button img{
+	/*上下居中*/
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	/**/
+}
