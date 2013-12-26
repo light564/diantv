@@ -3,5 +3,5 @@ from webpage import views
 
 urlpatterns = patterns('',
     url(r'^show/', views.show, name='showpage'),
-    url(r'^$', views.client, name='clientpage'),#in computer
+    url(r'^/', views.client, name='clientpage'),#in computer
 )

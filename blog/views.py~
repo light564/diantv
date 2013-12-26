@@ -103,6 +103,9 @@ def publish(request):
 	if len(message) > 140:
 		return ResponseJson({'ErrorMessage' : "message is too long"})
 
+	author = author.encode("UTF-8")
+	message = message.encode("UTF-8")
+
 	room = request.META.get('REMOTE_ADDR').split('.')[2]
 	if len(room) == 1:
 		author = author + "(70"+room+")"
@@ -136,6 +139,8 @@ def PublishNotice(request):
 	print StrLen(message)
 	if len(message) > 15:
 		return ResponseJson({'ErrorMessage' : "message is too long"})
+
+	message = message.encode("UTF-8")
 
 	notice = DianTVNotice(Content = message)
 	notice.save()

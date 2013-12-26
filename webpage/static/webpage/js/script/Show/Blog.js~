@@ -15,6 +15,7 @@
 				console.log(data);
 				if(data["ErrorMessage"]){
 					if(conf == "Init"){
+						number--;
 						$("#screen").fadeOut("3000",function(){
 							setTimeout(function(){
 								Animation.BlogAnimation();
