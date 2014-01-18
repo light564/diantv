@@ -10,7 +10,7 @@
 			url : 	url,
 			data: 	data,
 			dataType: 	"json",
-			timeout: 30000,
+			timeout: 3000,
 			success: function(data){
 				console.log(data);
 				if(data["ErrorMessage"]){
@@ -19,13 +19,13 @@
 							setTimeout(function(){
 								Animation.BlogAnimation();
 								GetBlog();
-							}, 10000);
+							}, 6000);
 						});
 						return;
 					}
 					setTimeout(function(){
 						Animation.BlogAnimation();
-					}, 10000);
+					}, 6000);
 					setTimeout(function(){
 						$("#screen").fadeIn("3000",function(){
 							for(var i = 1; i <= number; i++){
@@ -36,7 +36,7 @@
 							number = 0;
 							GetBlog("Init");
 						})
-					}, 21000);
+					}, 13000);
 					return;
 				}
 				if(conf == "Init"){
@@ -82,7 +82,7 @@
 			setTimeout(function(){
 				Animation.BlogAnimation();
 				GetBlog();
-			}, 10000);
+			}, 6000);
 			return;
 		}
 		GetBlog();
@@ -129,7 +129,7 @@
 				setTimeout(function(){
 					Animation.BlogAnimation();
 					GetBlog();
-				}, 10000);
+				}, 6000);
 			});
 			return;
 		}

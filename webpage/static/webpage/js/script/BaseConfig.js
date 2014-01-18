@@ -1,1 +1,1 @@
-var path = "http://192.168.9.55:8080/blog/";
+var path = "http://192.168.0.9:80/blog/";
