@@ -15,3 +15,8 @@ def client(request):
 	filename = "DianTv_ClientPage.html"
 	filepath = filepath = "webpage/"+filename
 	return render(request, filepath)
+
+def mobile(request):
+	filename = "DianTv_MobilePage.html"
+	filepath = filepath = "webpage/"+filename
+	return render(request, filepath)

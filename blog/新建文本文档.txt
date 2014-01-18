@@ -1,7 +1,11 @@
 ﻿请求所有的留言时：bloglist
-	post: number(从0开始)
+	post: number(从0开始，最大到30)
 	返回：author message (time)
 
 发表留言时：publish
 	post：author message
 	返回：{'Message' : "Publish Success"}
+	
+发布公告：PublishNotice	
+	post： message  password other
+	other="force"   忽视字数限制

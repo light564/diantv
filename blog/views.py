@@ -1,5 +1,6 @@
 # Create your views here.
 # -*- coding=utf-8 -*-
+import datetime
 
 from django.http import HttpResponse
 
@@ -52,7 +53,7 @@ def bloglist(request):
 	AllBlog = DianTVBlog.objects.all()
 	last = len(AllBlog)-1
 
-	if(blognum > last):
+	if(blognum > last) or (blognum > 30):
 		return ResponseJson({'ErrorMessage' : "No more message"})
 	response_info = BlogToJson(AllBlog[last - blognum])
 
@@ -86,39 +87,59 @@ def publish(request):
 	"""
 	check request
 	"""
+	key = 0
 	if request.method != 'POST':
 		return ResponseJson({'ErrorMessage' : "request method error"})
 
 	if request.POST.get('author') == None:
 		return ResponseJson({'ErrorMessage' : "No author"})
+	print request.POST.get('author')
 
 	if request.POST.get('message') == None:
 		return ResponseJson({'ErrorMessage' : "No message"})
+
+	if request.POST.get('EIid') != None:
+		key = 1
+		#print "key : 1"
 
 	author = request.POST.get('author')
 	message = request.POST.get('message')
 
 	if len(author) > 15:
 		return ResponseJson({'ErrorMessage' : "author is too long"})
+	if len(author) == 0:
+		return ResponseJson({'ErrorMessage' : "author is empty"})
 	if len(message) > 140:
 		return ResponseJson({'ErrorMessage' : "message is too long"})
+	if len(message) == 0:
+		return ResponseJson({'ErrorMessage' : "message is empty"})
 
-	room = request.META.get('REMOTE_ADDR').split('.')[2]
-	if len(room) == 1:
-		author = author + "(70"+room+")"
-	if len(room) == 2:
-		author = author + "(7"+room+")"
-	if len(room) == 3:
-		author = author + "("+room+")"
+	if key == 0:
+		room = request.META.get('REMOTE_ADDR').split('.')[2]
+		if len(room) == 1:
+			author = author + "(70"+room+")"
+		if len(room) == 2:
+			author = author + "(7"+room+")"
+		if len(room) == 3:
+			author = author + "("+room+")"
 
-	print author
+		blog = DianTVBlog(Author = author,
+						Content = message,
+						PublishData = datetime.datetime.now(),
+						EIid = ""
+				)
+		blog.save()
 
-	blog = DianTVBlog(Author = author,
-					Content = message,
-					PublishData = timezone.now()
-			)
-	blog.save()
-	print "author: " + author + " message: " + message
+	if key == 1:
+		author = author + "(from eistart)"
+		blog = DianTVBlog(Author = author,
+						Content = message,
+						PublishData = request.POST.get('time'),
+						EIid = request.POST.get('EIid')
+					)
+
+		blog.save()
+	#print "author: " + author + " message: " + message
 	return ResponseJson({'Message' : "Publish Success"})
 
 def PublishNotice(request):
@@ -132,12 +153,18 @@ def PublishNotice(request):
 		return ResponseJson({'ErrorMessage' : "No message"})
 
 	message = request.POST.get('message')
-	print message
-	print StrLen(message)
-	if len(message) > 15:
+	password = request.POST.get('password')
+	other = request.POST.get('other')
+
+	if password != "diangroup" :
+		return ResponseJson({'Message' : "Published Success"})
+
+	if len(message) > 15 and other != "force" :
 		return ResponseJson({'ErrorMessage' : "message is too long"})
+
+	#print message
 
 	notice = DianTVNotice(Content = message)
 	notice.save()
-	print "message: " + message
+	#print "message: " + message
 	return ResponseJson({'Message' : "Publish Success"})

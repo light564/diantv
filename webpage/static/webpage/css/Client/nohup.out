@@ -1,0 +1,3499 @@
+[27/Dec/2013 09:53:38] "GET / HTTP/1.1" 200 2884
+[27/Dec/2013 09:53:38] "GET /static/webpage/js/lib/require.js HTTP/1.1" 304 0
+[27/Dec/2013 09:53:38] "GET /static/webpage/css/basic.css HTTP/1.1" 304 0
+[27/Dec/2013 09:53:38] "GET /static/webpage/css/Client/text.css HTTP/1.1" 304 0
+[27/Dec/2013 09:53:38] "GET /static/webpage/css/Client/body.css HTTP/1.1" 304 0
+[27/Dec/2013 09:53:38] "GET /static/webpage/css/Client/head.css HTTP/1.1" 200 627
+[27/Dec/2013 09:53:38] "GET /static/webpage/css/Client/other.css HTTP/1.1" 304 0
+[27/Dec/2013 09:53:38] "GET /static/webpage/img/dianTV_client/%E5%B7%A6%E8%BE%B9%E8%89%B2%E5%9D%97.png HTTP/1.1" 304 0
+[27/Dec/2013 09:53:38] "GET /static/webpage/img/dianTV_client/DNTVlogo.png HTTP/1.1" 304 0
+[27/Dec/2013 09:53:38] "GET /static/webpage/img/dianTV_client/dianlogo.png HTTP/1.1" 304 0
+[27/Dec/2013 09:53:38] "GET /static/webpage/img/dianTV_client/%E5%8F%91%E9%80%81.png HTTP/1.1" 304 0
+[27/Dec/2013 09:53:38] "GET /static/webpage/img/dianTV_client/%E5%8F%B3%E8%BE%B9%E8%89%B2%E5%9D%97.png HTTP/1.1" 304 0
+[27/Dec/2013 09:53:38] "GET /static/webpage/img/dianTV_client/%E6%B5%B7%E8%B1%9A.png HTTP/1.1" 304 0
+[27/Dec/2013 09:53:38] "GET /static/webpage/js/script/Client/main.js HTTP/1.1" 304 0
+/usr/local/lib/python2.7/dist-packages/django/http/response.py:330: DeprecationWarning: Using mimetype keyword argument is deprecated, use content_type instead
+  super(HttpResponse, self).__init__(*args, **kwargs)
+
+[27/Dec/2013 09:53:38] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 09:53:38] "POST /blog/notice/ HTTP/1.1" 200 75
+[27/Dec/2013 09:53:38] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 09:53:38] "POST /blog/bloglist/ HTTP/1.1" 200 276
+[27/Dec/2013 09:53:38] "POST /blog/bloglist/ HTTP/1.1" 200 168
+[27/Dec/2013 09:53:38] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 09:53:39] "POST /blog/bloglist/ HTTP/1.1" 200 237
+[27/Dec/2013 09:53:39] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 09:53:39] "POST /blog/bloglist/ HTTP/1.1" 200 141
+[27/Dec/2013 09:53:39] "POST /blog/bloglist/ HTTP/1.1" 200 156
+[27/Dec/2013 09:53:39] "POST /blog/bloglist/ HTTP/1.1" 200 103
+[27/Dec/2013 09:53:39] "POST /blog/bloglist/ HTTP/1.1" 200 153
+[27/Dec/2013 09:53:39] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 09:53:39] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 09:53:39] "POST /blog/bloglist/ HTTP/1.1" 200 162
+[27/Dec/2013 09:53:39] "POST /blog/bloglist/ HTTP/1.1" 200 132
+[27/Dec/2013 09:53:39] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 09:53:39] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 09:53:39] "POST /blog/bloglist/ HTTP/1.1" 200 102
+[27/Dec/2013 09:53:39] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 09:53:39] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 09:53:39] "POST /blog/bloglist/ HTTP/1.1" 200 138
+[27/Dec/2013 09:53:39] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 09:53:39] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 09:53:39] "POST /blog/bloglist/ HTTP/1.1" 200 109
+[27/Dec/2013 09:53:39] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 09:53:39] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 09:53:39] "POST /blog/bloglist/ HTTP/1.1" 200 155
+[27/Dec/2013 09:53:39] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 09:53:39] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 09:53:39] "POST /blog/bloglist/ HTTP/1.1" 200 92
+[27/Dec/2013 09:53:39] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 09:53:39] "POST /blog/bloglist/ HTTP/1.1" 200 192
+[27/Dec/2013 09:53:39] "POST /blog/bloglist/ HTTP/1.1" 200 96
+[27/Dec/2013 09:53:39] "POST /blog/bloglist/ HTTP/1.1" 200 109
+[27/Dec/2013 09:53:39] "POST /blog/bloglist/ HTTP/1.1" 200 96
+[27/Dec/2013 09:53:39] "POST /blog/bloglist/ HTTP/1.1" 200 98
+[27/Dec/2013 09:53:39] "POST /blog/bloglist/ HTTP/1.1" 200 227
+[27/Dec/2013 09:53:39] "POST /blog/bloglist/ HTTP/1.1" 200 186
+[27/Dec/2013 09:53:39] "POST /blog/bloglist/ HTTP/1.1" 200 124
+[27/Dec/2013 09:53:39] "POST /blog/bloglist/ HTTP/1.1" 200 155
+[27/Dec/2013 09:53:40] "POST /blog/bloglist/ HTTP/1.1" 200 154
+[27/Dec/2013 09:53:40] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 09:53:40] "POST /blog/bloglist/ HTTP/1.1" 200 97
+[27/Dec/2013 09:53:40] "POST /blog/bloglist/ HTTP/1.1" 200 102
+[27/Dec/2013 09:53:40] "POST /blog/bloglist/ HTTP/1.1" 200 103
+[27/Dec/2013 09:53:40] "POST /blog/bloglist/ HTTP/1.1" 200 174
+[27/Dec/2013 09:53:40] "POST /blog/bloglist/ HTTP/1.1" 200 102
+[27/Dec/2013 09:53:40] "POST /blog/bloglist/ HTTP/1.1" 200 35
+[27/Dec/2013 09:59:24] "GET /diantv/show/ HTTP/1.1" 200 1437
+[27/Dec/2013 09:59:24] "GET /static/webpage/css/basic.css HTTP/1.1" 304 0
+[27/Dec/2013 09:59:24] "GET /static/webpage/css/Show/notice.css HTTP/1.1" 304 0
+[27/Dec/2013 09:59:24] "GET /static/webpage/css/Show/other.css HTTP/1.1" 304 0
+[27/Dec/2013 09:59:24] "GET /static/webpage/css/Show/blog.css HTTP/1.1" 304 0
+[27/Dec/2013 09:59:25] "GET /static/webpage/img/%E4%BA%8C%E7%BB%B4%E7%A0%81.png HTTP/1.1" 200 14892
+[27/Dec/2013 09:59:25] "GET /static/webpage/js/script/Show/main.js HTTP/1.1" 304 0
+[27/Dec/2013 09:59:25] "GET /static/webpage/js/script/Show/Config.js HTTP/1.1" 304 0
+[27/Dec/2013 09:59:25] "GET /static/webpage/js/script/Show/Event.js HTTP/1.1" 304 0
+[27/Dec/2013 09:59:25] "GET /static/webpage/js/script/Show/Blog.js HTTP/1.1" 304 0
+[27/Dec/2013 09:59:25] "GET /static/webpage/js/script/Show/CheckContent.js HTTP/1.1" 304 0
+[27/Dec/2013 09:59:25] "GET /static/webpage/js/script/Show/WindowSize.js HTTP/1.1" 304 0
+[27/Dec/2013 09:59:25] "GET /static/webpage/js/script/Show/Animation.js HTTP/1.1" 304 0
+[27/Dec/2013 09:59:25] "GET /static/webpage/js/script/Show/Notice.js HTTP/1.1" 304 0
+[27/Dec/2013 09:59:26] "POST /blog/notice/ HTTP/1.1" 200 75
+[27/Dec/2013 09:59:26] "POST /blog/notice/ HTTP/1.1" 200 65
+[27/Dec/2013 09:59:26] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 09:59:26] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 09:59:26] "POST /blog/bloglist/ HTTP/1.1" 200 276
+[27/Dec/2013 09:59:26] "POST /blog/bloglist/ HTTP/1.1" 200 168
+[27/Dec/2013 09:59:26] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 09:59:26] "POST /blog/bloglist/ HTTP/1.1" 200 237
+[27/Dec/2013 09:59:26] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 09:59:26] "POST /blog/bloglist/ HTTP/1.1" 200 141
+[27/Dec/2013 09:59:26] "POST /blog/bloglist/ HTTP/1.1" 200 156
+[27/Dec/2013 09:59:26] "POST /blog/bloglist/ HTTP/1.1" 200 103
+[27/Dec/2013 09:59:26] "POST /blog/bloglist/ HTTP/1.1" 200 153
+[27/Dec/2013 09:59:26] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 09:59:26] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 09:59:26] "POST /blog/bloglist/ HTTP/1.1" 200 162
+[27/Dec/2013 09:59:26] "POST /blog/bloglist/ HTTP/1.1" 200 132
+[27/Dec/2013 09:59:26] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 09:59:26] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 09:59:26] "POST /blog/bloglist/ HTTP/1.1" 200 102
+[27/Dec/2013 09:59:26] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 09:59:26] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 09:59:27] "POST /blog/bloglist/ HTTP/1.1" 200 138
+[27/Dec/2013 09:59:27] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 09:59:27] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 09:59:27] "POST /blog/bloglist/ HTTP/1.1" 200 109
+[27/Dec/2013 09:59:27] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 09:59:27] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 09:59:27] "POST /blog/bloglist/ HTTP/1.1" 200 155
+[27/Dec/2013 09:59:27] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 09:59:27] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 09:59:27] "POST /blog/bloglist/ HTTP/1.1" 200 92
+[27/Dec/2013 09:59:27] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 09:59:27] "POST /blog/bloglist/ HTTP/1.1" 200 192
+[27/Dec/2013 09:59:27] "POST /blog/bloglist/ HTTP/1.1" 200 96
+[27/Dec/2013 09:59:27] "POST /blog/bloglist/ HTTP/1.1" 200 109
+[27/Dec/2013 09:59:27] "POST /blog/bloglist/ HTTP/1.1" 200 96
+[27/Dec/2013 09:59:27] "POST /blog/bloglist/ HTTP/1.1" 200 98
+[27/Dec/2013 09:59:27] "POST /blog/bloglist/ HTTP/1.1" 200 227
+[27/Dec/2013 09:59:27] "POST /blog/bloglist/ HTTP/1.1" 200 186
+[27/Dec/2013 09:59:27] "POST /blog/bloglist/ HTTP/1.1" 200 124
+[27/Dec/2013 09:59:27] "POST /blog/bloglist/ HTTP/1.1" 200 155
+[27/Dec/2013 09:59:27] "POST /blog/bloglist/ HTTP/1.1" 200 154
+[27/Dec/2013 09:59:27] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 09:59:27] "POST /blog/bloglist/ HTTP/1.1" 200 97
+[27/Dec/2013 09:59:27] "POST /blog/bloglist/ HTTP/1.1" 200 102
+[27/Dec/2013 09:59:27] "POST /blog/bloglist/ HTTP/1.1" 200 103
+[27/Dec/2013 09:59:27] "POST /blog/bloglist/ HTTP/1.1" 200 174
+[27/Dec/2013 09:59:27] "POST /blog/bloglist/ HTTP/1.1" 200 102
+[27/Dec/2013 09:59:27] "POST /blog/bloglist/ HTTP/1.1" 200 35
+[27/Dec/2013 10:03:40] "GET /diantv/show HTTP/1.1" 301 0
+[27/Dec/2013 10:03:40] "GET /diantv/show/ HTTP/1.1" 200 1437
+[27/Dec/2013 10:03:40] "POST /blog/notice/ HTTP/1.1" 200 75
+[27/Dec/2013 10:03:40] "POST /blog/notice/ HTTP/1.1" 200 65
+[27/Dec/2013 10:03:40] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:03:40] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:03:40] "POST /blog/bloglist/ HTTP/1.1" 200 276
+[27/Dec/2013 10:03:41] "POST /blog/bloglist/ HTTP/1.1" 200 168
+[27/Dec/2013 10:03:41] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:03:41] "POST /blog/bloglist/ HTTP/1.1" 200 237
+[27/Dec/2013 10:03:41] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:03:41] "POST /blog/bloglist/ HTTP/1.1" 200 141
+[27/Dec/2013 10:03:41] "POST /blog/bloglist/ HTTP/1.1" 200 156
+Validating models...
+
+0 errors found
+December 27, 2013 - 09:53:34
+Django version 1.6.1, using settings 'DianTV.settings'
+Starting development server at http://192.168.0.9:8080/
+Quit the server with CONTROL-C.
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+--[27/Dec/2013 10:03:41] "POST /blog/bloglist/ HTTP/1.1" 200 103
+[27/Dec/2013 10:03:41] "POST /blog/bloglist/ HTTP/1.1" 200 153
+[27/Dec/2013 10:03:41] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:03:41] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:03:41] "POST /blog/bloglist/ HTTP/1.1" 200 162
+[27/Dec/2013 10:03:41] "POST /blog/bloglist/ HTTP/1.1" 200 132
+[27/Dec/2013 10:03:52] "POST /blog/bloglist/ HTTP/1.1" 200 132
+[27/Dec/2013 10:03:52] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:03:52] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:03:52] "POST /blog/bloglist/ HTTP/1.1" 200 102
+[27/Dec/2013 10:03:52] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:03:52] "POST /blog/notice/ HTTP/1.1" 200 75
+[27/Dec/2013 10:04:00] "GET /diantv/mobile/ HTTP/1.1" 200 2105
+[27/Dec/2013 10:04:00] "GET /static/webpage/js/script/Mobile/Moblie.js HTTP/1.1" 200 3375
+[27/Dec/2013 10:04:00] "GET /static/webpage/css/Mobile/mobile.css HTTP/1.1" 200 1281
+[27/Dec/2013 10:04:00] "GET /static/webpage/img/dianTV_client/DNTVlogo.png HTTP/1.1" 200 27920
+[27/Dec/2013 10:04:00] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:04:00] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:04:00] "POST /blog/bloglist/ HTTP/1.1" 200 276
+[27/Dec/2013 10:04:00] "POST /blog/bloglist/ HTTP/1.1" 200 168
+[27/Dec/2013 10:04:00] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:04:00] "POST /blog/bloglist/ HTTP/1.1" 200 237
+[27/Dec/2013 10:04:00] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:04:00] "POST /blog/bloglist/ HTTP/1.1" 200 141
+[27/Dec/2013 10:04:00] "POST /blog/bloglist/ HTTP/1.1" 200 156
+[27/Dec/2013 10:04:00] "POST /blog/bloglist/ HTTP/1.1" 200 103
+[27/Dec/2013 10:04:00] "POST /blog/bloglist/ HTTP/1.1" 200 153
+[27/Dec/2013 10:04:02] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:04:02] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:04:02] "POST /blog/bloglist/ HTTP/1.1" 200 138
+[27/Dec/2013 10:04:02] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:04:02] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:04:04] "POST /blog/notice/ HTTP/1.1" 200 65
+[27/Dec/2013 10:04:12] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:04:12] "POST /blog/bloglist/ HTTP/1.1" 200 109
+[27/Dec/2013 10:04:12] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:04:12] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:04:13] "POST /blog/bloglist/ HTTP/1.1" 200 155
+[27/Dec/2013 10:04:16] "POST /blog/notice/ HTTP/1.1" 200 75
+[27/Dec/2013 10:04:23] "POST /blog/bloglist/ HTTP/1.1" 200 155
+[27/Dec/2013 10:04:23] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:04:23] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:04:23] "POST /blog/bloglist/ HTTP/1.1" 200 92
+[27/Dec/2013 10:04:23] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:04:23] "POST /blog/bloglist/ HTTP/1.1" 200 192
+[27/Dec/2013 10:04:28] "POST /blog/notice/ HTTP/1.1" 200 65
+[27/Dec/2013 10:04:33] "POST /blog/bloglist/ HTTP/1.1" 200 192
+[27/Dec/2013 10:04:33] "POST /blog/bloglist/ HTTP/1.1" 200 96
+[27/Dec/2013 10:04:33] "POST /blog/bloglist/ HTTP/1.1" 200 109
+[27/Dec/2013 10:04:33] "POST /blog/bloglist/ HTTP/1.1" 200 96
+[27/Dec/2013 10:04:33] "POST /blog/bloglist/ HTTP/1.1" 200 98
+[27/Dec/2013 10:04:33] "POST /blog/bloglist/ HTTP/1.1" 200 227
+[27/Dec/2013 10:04:40] "POST /blog/notice/ HTTP/1.1" 200 75
+[27/Dec/2013 10:04:43] "POST /blog/bloglist/ HTTP/1.1" 200 227
+[27/Dec/2013 10:04:43] "POST /blog/bloglist/ HTTP/1.1" 200 186
+[27/Dec/2013 10:04:43] "POST /blog/bloglist/ HTTP/1.1" 200 124
+Internal Server Error: /blog/publish/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/diannorway/server/python/diango/DianTV/blog/views.py", line 114, in publish
+    print author
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-1: ordinal not in range(128)
+[27/Dec/2013 10:04:48] "POST /blog/publish/ HTTP/1.1" 500 10625
+Internal Server Error: /blog/publish/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/diannorway/server/python/diango/DianTV/blog/views.py", line 114, in publish
+    print author
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-1: ordinal not in range(128)
+[27/Dec/2013 10:04:52] "POST /blog/publish/ HTTP/1.1" 500 10625
+[27/Dec/2013 10:04:52] "POST /blog/notice/ HTTP/1.1" 200 65
+[27/Dec/2013 10:04:53] "POST /blog/bloglist/ HTTP/1.1" 200 124
+[27/Dec/2013 10:04:53] "POST /blog/bloglist/ HTTP/1.1" 200 155
+[27/Dec/2013 10:04:53] "POST /blog/bloglist/ HTTP/1.1" 200 154
+[27/Dec/2013 10:04:53] "POST /blog/bloglist/ HTTP/1.1" 200 120
+Internal Server Error: /blog/publish/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/diannorway/server/python/diango/DianTV/blog/views.py", line 114, in publish
+    print author
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-1: ordinal not in range(128)
+[27/Dec/2013 10:05:00] "POST /blog/publish/ HTTP/1.1" 500 10625
+Internal Server Error: /blog/publish/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/diannorway/server/python/diango/DianTV/blog/views.py", line 114, in publish
+    print author
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-1: ordinal not in range(128)
+[27/Dec/2013 10:05:00] "POST /blog/publish/ HTTP/1.1" 500 10625
+[27/Dec/2013 10:05:03] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:05:03] "POST /blog/bloglist/ HTTP/1.1" 200 97
+[27/Dec/2013 10:05:03] "POST /blog/bloglist/ HTTP/1.1" 200 102
+[27/Dec/2013 10:05:04] "POST /blog/bloglist/ HTTP/1.1" 200 103
+[27/Dec/2013 10:05:04] "POST /blog/bloglist/ HTTP/1.1" 200 174
+[27/Dec/2013 10:05:04] "POST /blog/notice/ HTTP/1.1" 200 75
+[27/Dec/2013 10:05:14] "POST /blog/bloglist/ HTTP/1.1" 200 174
+[27/Dec/2013 10:05:14] "POST /blog/bloglist/ HTTP/1.1" 200 102
+[27/Dec/2013 10:05:14] "POST /blog/bloglist/ HTTP/1.1" 200 35
+[27/Dec/2013 10:05:16] "POST /blog/notice/ HTTP/1.1" 200 65
+Internal Server Error: /blog/publish/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/diannorway/server/python/diango/DianTV/blog/views.py", line 114, in publish
+    print author
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-1: ordinal not in range(128)
+[27/Dec/2013 10:05:17] "POST /blog/publish/ HTTP/1.1" 500 10625
+[27/Dec/2013 10:05:28] "POST /blog/notice/ HTTP/1.1" 200 75
+[27/Dec/2013 10:05:35] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:05:35] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:05:35] "POST /blog/bloglist/ HTTP/1.1" 200 276
+[27/Dec/2013 10:05:35] "POST /blog/bloglist/ HTTP/1.1" 200 168
+[27/Dec/2013 10:05:35] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:05:35] "POST /blog/bloglist/ HTTP/1.1" 200 237
+[27/Dec/2013 10:05:35] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:05:35] "POST /blog/bloglist/ HTTP/1.1" 200 141
+[27/Dec/2013 10:05:35] "POST /blog/bloglist/ HTTP/1.1" 200 156
+[27/Dec/2013 10:05:36] "POST /blog/bloglist/ HTTP/1.1" 200 103
+[27/Dec/2013 10:05:36] "POST /blog/bloglist/ HTTP/1.1" 200 153
+[27/Dec/2013 10:05:36] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:05:36] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:05:36] "POST /blog/bloglist/ HTTP/1.1" 200 162
+[27/Dec/2013 10:05:36] "POST /blog/bloglist/ HTTP/1.1" 200 132
+[27/Dec/2013 10:05:40] "POST /blog/notice/ HTTP/1.1" 200 65
+[27/Dec/2013 10:05:46] "POST /blog/bloglist/ HTTP/1.1" 200 132
+[27/Dec/2013 10:05:46] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:05:46] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:05:46] "POST /blog/bloglist/ HTTP/1.1" 200 102
+[27/Dec/2013 10:05:46] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:05:52] "POST /blog/notice/ HTTP/1.1" 200 75
+[27/Dec/2013 10:05:56] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:05:56] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:05:56] "POST /blog/bloglist/ HTTP/1.1" 200 138
+[27/Dec/2013 10:05:57] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:05:57] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:06:04] "POST /blog/notice/ HTTP/1.1" 200 65
+[27/Dec/2013 10:06:07] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:06:07] "POST /blog/bloglist/ HTTP/1.1" 200 109
+[27/Dec/2013 10:06:07] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:06:07] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:06:07] "POST /blog/bloglist/ HTTP/1.1" 200 155
+[27/Dec/2013 10:06:17] "POST /blog/notice/ HTTP/1.1" 200 75
+[27/Dec/2013 10:06:17] "POST /blog/bloglist/ HTTP/1.1" 200 155
+[27/Dec/2013 10:06:17] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:06:17] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:06:17] "POST /blog/bloglist/ HTTP/1.1" 200 92
+[27/Dec/2013 10:06:17] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:06:17] "POST /blog/bloglist/ HTTP/1.1" 200 192
+[27/Dec/2013 10:06:27] "POST /blog/bloglist/ HTTP/1.1" 200 192
+[27/Dec/2013 10:06:27] "POST /blog/bloglist/ HTTP/1.1" 200 96
+[27/Dec/2013 10:06:27] "POST /blog/bloglist/ HTTP/1.1" 200 109
+[27/Dec/2013 10:06:27] "POST /blog/bloglist/ HTTP/1.1" 200 96
+[27/Dec/2013 10:06:27] "POST /blog/bloglist/ HTTP/1.1" 200 98
+[27/Dec/2013 10:06:27] "POST /blog/bloglist/ HTTP/1.1" 200 227
+[27/Dec/2013 10:06:29] "POST /blog/notice/ HTTP/1.1" 200 65
+[27/Dec/2013 10:06:37] "POST /blog/bloglist/ HTTP/1.1" 200 227
+[27/Dec/2013 10:06:37] "POST /blog/bloglist/ HTTP/1.1" 200 186
+[27/Dec/2013 10:06:41] "POST /blog/notice/ HTTP/1.1" 200 75
+[27/Dec/2013 10:06:47] "POST /blog/bloglist/ HTTP/1.1" 200 186
+[27/Dec/2013 10:06:47] "POST /blog/bloglist/ HTTP/1.1" 200 124
+[27/Dec/2013 10:06:47] "POST /blog/bloglist/ HTTP/1.1" 200 155
+[27/Dec/2013 10:06:53] "POST /blog/notice/ HTTP/1.1" 200 65
+[27/Dec/2013 10:06:57] "POST /blog/bloglist/ HTTP/1.1" 200 155
+[27/Dec/2013 10:06:57] "POST /blog/bloglist/ HTTP/1.1" 200 154
+[27/Dec/2013 10:06:57] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:06:57] "POST /blog/bloglist/ HTTP/1.1" 200 97
+[27/Dec/2013 10:07:05] "POST /blog/notice/ HTTP/1.1" 200 75
+-------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+-------[27/Dec/2013 10:07:08] "POST /blog/bloglist/ HTTP/1.1" 200 97
+[27/Dec/2013 10:07:08] "POST /blog/bloglist/ HTTP/1.1" 200 102
+[27/Dec/2013 10:07:08] "POST /blog/bloglist/ HTTP/1.1" 200 103
+[27/Dec/2013 10:07:08] "POST /blog/bloglist/ HTTP/1.1" 200 174
+[27/Dec/2013 10:07:08] "POST /blog/bloglist/ HTTP/1.1" 200 102
+[27/Dec/2013 10:07:17] "POST /blog/notice/ HTTP/1.1" 200 65
+[27/Dec/2013 10:07:18] "POST /blog/bloglist/ HTTP/1.1" 200 102
+[27/Dec/2013 10:07:18] "POST /blog/bloglist/ HTTP/1.1" 200 35
+[27/Dec/2013 10:07:29] "POST /blog/notice/ HTTP/1.1" 200 75
+[27/Dec/2013 10:07:39] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:07:39] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:07:39] "POST /blog/bloglist/ HTTP/1.1" 200 276
+[27/Dec/2013 10:07:39] "POST /blog/bloglist/ HTTP/1.1" 200 168
+[27/Dec/2013 10:07:39] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:07:39] "POST /blog/bloglist/ HTTP/1.1" 200 237
+[27/Dec/2013 10:07:39] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:07:39] "POST /blog/bloglist/ HTTP/1.1" 200 141
+[27/Dec/2013 10:07:39] "POST /blog/bloglist/ HTTP/1.1" 200 156
+[27/Dec/2013 10:07:39] "POST /blog/bloglist/ HTTP/1.1" 200 103
+[27/Dec/2013 10:07:40] "POST /blog/bloglist/ HTTP/1.1" 200 153
+[27/Dec/2013 10:07:40] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:07:40] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:07:40] "POST /blog/bloglist/ HTTP/1.1" 200 162
+[27/Dec/2013 10:07:40] "POST /blog/bloglist/ HTTP/1.1" 200 132
+[27/Dec/2013 10:07:41] "POST /blog/notice/ HTTP/1.1" 200 65
+[27/Dec/2013 10:07:50] "GET /diantv/mobile HTTP/1.1" 301 0
+[27/Dec/2013 10:07:50] "GET /diantv/mobile/ HTTP/1.1" 200 2105
+[27/Dec/2013 10:07:50] "GET /static/webpage/js/script/Mobile/Moblie.js HTTP/1.1" 200 3375
+[27/Dec/2013 10:07:50] "GET /static/webpage/css/Mobile/mobile.css HTTP/1.1" 200 1281
+[27/Dec/2013 10:07:50] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:07:50] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:07:50] "POST /blog/bloglist/ HTTP/1.1" 200 276
+[27/Dec/2013 10:07:50] "POST /blog/bloglist/ HTTP/1.1" 200 168
+[27/Dec/2013 10:07:50] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:07:50] "POST /blog/bloglist/ HTTP/1.1" 200 237
+[27/Dec/2013 10:07:50] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:07:50] "POST /blog/bloglist/ HTTP/1.1" 200 141
+[27/Dec/2013 10:07:50] "POST /blog/bloglist/ HTTP/1.1" 200 156
+[27/Dec/2013 10:07:50] "POST /blog/bloglist/ HTTP/1.1" 200 103
+[27/Dec/2013 10:07:50] "POST /blog/bloglist/ HTTP/1.1" 200 132
+[27/Dec/2013 10:07:50] "POST /blog/bloglist/ HTTP/1.1" 200 153
+[27/Dec/2013 10:07:50] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:07:50] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:07:50] "POST /blog/bloglist/ HTTP/1.1" 200 102
+[27/Dec/2013 10:07:50] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:07:53] "POST /blog/notice/ HTTP/1.1" 200 75
+[27/Dec/2013 10:08:00] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:08:00] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:08:00] "POST /blog/bloglist/ HTTP/1.1" 200 138
+[27/Dec/2013 10:08:01] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:08:01] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:08:05] "POST /blog/notice/ HTTP/1.1" 200 65
+[27/Dec/2013 10:08:11] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:08:11] "POST /blog/bloglist/ HTTP/1.1" 200 109
+[27/Dec/2013 10:08:11] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:08:11] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:08:11] "POST /blog/bloglist/ HTTP/1.1" 200 155
+[27/Dec/2013 10:08:17] "POST /blog/notice/ HTTP/1.1" 200 75
+[27/Dec/2013 10:08:21] "POST /blog/bloglist/ HTTP/1.1" 200 155
+[27/Dec/2013 10:08:21] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:08:21] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:08:21] "POST /blog/bloglist/ HTTP/1.1" 200 92
+[27/Dec/2013 10:08:21] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:08:21] "POST /blog/bloglist/ HTTP/1.1" 200 192
+[27/Dec/2013 10:08:29] "POST /blog/notice/ HTTP/1.1" 200 65
+[27/Dec/2013 10:08:31] "POST /blog/bloglist/ HTTP/1.1" 200 192
+[27/Dec/2013 10:08:31] "POST /blog/bloglist/ HTTP/1.1" 200 96
+[27/Dec/2013 10:08:31] "POST /blog/bloglist/ HTTP/1.1" 200 109
+[27/Dec/2013 10:08:31] "POST /blog/bloglist/ HTTP/1.1" 200 96
+[27/Dec/2013 10:08:31] "POST /blog/bloglist/ HTTP/1.1" 200 98
+[27/Dec/2013 10:08:31] "POST /blog/bloglist/ HTTP/1.1" 200 227
+[27/Dec/2013 10:08:41] "POST /blog/notice/ HTTP/1.1" 200 75
+[27/Dec/2013 10:08:41] "POST /blog/bloglist/ HTTP/1.1" 200 227
+[27/Dec/2013 10:08:41] "POST /blog/bloglist/ HTTP/1.1" 200 186
+Internal Server Error: /blog/publish/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/diannorway/server/python/diango/DianTV/blog/views.py", line 114, in publish
+    print author
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-1: ordinal not in range(128)
+[27/Dec/2013 10:08:46] "POST /blog/publish/ HTTP/1.1" 500 10626
+Internal Server Error: /blog/publish/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/diannorway/server/python/diango/DianTV/blog/views.py", line 114, in publish
+    print author
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-1: ordinal not in range(128)
+[27/Dec/2013 10:08:50] "POST /blog/publish/ HTTP/1.1" 500 10387
+Internal Server Error: /blog/publish/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/diannorway/server/python/diango/DianTV/blog/views.py", line 114, in publish
+    print author
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-1: ordinal not in range(128)
+[27/Dec/2013 10:08:51] "POST /blog/publish/ HTTP/1.1" 500 10387
+[27/Dec/2013 10:08:51] "POST /blog/bloglist/ HTTP/1.1" 200 186
+[27/Dec/2013 10:08:51] "POST /blog/bloglist/ HTTP/1.1" 200 124
+[27/Dec/2013 10:08:51] "POST /blog/bloglist/ HTTP/1.1" 200 155
+[27/Dec/2013 10:08:53] "POST /blog/notice/ HTTP/1.1" 200 65
+[27/Dec/2013 10:09:01] "POST /blog/bloglist/ HTTP/1.1" 200 155
+[27/Dec/2013 10:09:01] "POST /blog/bloglist/ HTTP/1.1" 200 154
+[27/Dec/2013 10:09:02] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:09:02] "POST /blog/bloglist/ HTTP/1.1" 200 97
+Internal Server Error: /blog/publish/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/diannorway/server/python/diango/DianTV/blog/views.py", line 114, in publish
+    print author
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-1: ordinal not in range(128)
+[27/Dec/2013 10:09:04] "POST /blog/publish/ HTTP/1.1" 500 10387
+Internal Server Error: /blog/publish/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/diannorway/server/python/diango/DianTV/blog/views.py", line 114, in publish
+    print author
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-1: ordinal not in range(128)
+[27/Dec/2013 10:09:04] "POST /blog/publish/ HTTP/1.1" 500 10387
+Internal Server Error: /blog/publish/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/diannorway/server/python/diango/DianTV/blog/views.py", line 114, in publish
+    print author
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-1: ordinal not in range(128)
+[27/Dec/2013 10:09:04] "POST /blog/publish/ HTTP/1.1" 500 10387
+Internal Server Error: /blog/publish/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/diannorway/server/python/diango/DianTV/blog/views.py", line 114, in publish
+    print author
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-1: ordinal not in range(128)
+[27/Dec/2013 10:09:04] "POST /blog/publish/ HTTP/1.1" 500 10387
+Internal Server Error: /blog/publish/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/diannorway/server/python/diango/DianTV/blog/views.py", line 114, in publish
+    print author
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-1: ordinal not in range(128)
+[27/Dec/2013 10:09:04] "POST /blog/publish/ HTTP/1.1" 500 10387
+[27/Dec/2013 10:09:05] "POST /blog/notice/ HTTP/1.1" 200 75
+Internal Server Error: /blog/publish/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/diannorway/server/python/diango/DianTV/blog/views.py", line 114, in publish
+    print author
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-1: ordinal not in range(128)
+[27/Dec/2013 10:09:05] "POST /blog/publish/ HTTP/1.1" 500 10387
+Internal Server Error: /blog/publish/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/diannorway/server/python/diango/DianTV/blog/views.py", line 114, in publish
+    print author
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-1: ordinal not in range(128)
+[27/Dec/2013 10:09:05] "POST /blog/publish/ HTTP/1.1" 500 10387
+Internal Server Error: /blog/publish/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/diannorway/server/python/diango/DianTV/blog/views.py", line 114, in publish
+    print author
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-1: ordinal not in range(128)
+[27/Dec/2013 10:09:05] "POST /blog/publish/ HTTP/1.1" 500 10387
+Internal Server Error: /blog/publish/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/diannorway/server/python/diango/DianTV/blog/views.py", line 114, in publish
+    print author
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-1: ordinal not in range(128)
+[27/Dec/2013 10:09:05] "POST /blog/publish/ HTTP/1.1" 500 10387
+Internal Server Error: /blog/publish/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/diannorway/server/python/diango/DianTV/blog/views.py", line 114, in publish
+    print author
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-1: ordinal not in range(128)
+[27/Dec/2013 10:09:05] "POST /blog/publish/ HTTP/1.1" 500 10387
+[27/Dec/2013 10:09:12] "POST /blog/bloglist/ HTTP/1.1" 200 97
+[27/Dec/2013 10:09:12] "POST /blog/bloglist/ HTTP/1.1" 200 102
+[27/Dec/2013 10:09:12] "POST /blog/bloglist/ HTTP/1.1" 200 103
+[27/Dec/2013 10:09:12] "POST /blog/bloglist/ HTTP/1.1" 200 174
+[27/Dec/2013 10:09:12] "POST /blog/bloglist/ HTTP/1.1" 200 102
+[27/Dec/2013 10:09:17] "POST /blog/notice/ HTTP/1.1" 200 65
+[27/Dec/2013 10:09:22] "POST /blog/bloglist/ HTTP/1.1" 200 102
+[27/Dec/2013 10:09:22] "POST /blog/bloglist/ HTTP/1.1" 200 35
+[27/Dec/2013 10:09:29] "POST /blog/notice/ HTTP/1.1" 200 75
+[27/Dec/2013 10:09:41] "POST /blog/notice/ HTTP/1.1" 200 65
+[27/Dec/2013 10:09:43] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:09:43] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:09:43] "POST /blog/bloglist/ HTTP/1.1" 200 276
+[27/Dec/2013 10:09:43] "POST /blog/bloglist/ HTTP/1.1" 200 168
+[27/Dec/2013 10:09:43] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:09:43] "POST /blog/bloglist/ HTTP/1.1" 200 237
+[27/Dec/2013 10:09:44] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:09:44] "POST /blog/bloglist/ HTTP/1.1" 200 141
+[27/Dec/2013 10:09:44] "POST /blog/bloglist/ HTTP/1.1" 200 156
+[27/Dec/2013 10:09:44] "POST /blog/bloglist/ HTTP/1.1" 200 103
+[27/Dec/2013 10:09:44] "POST /blog/bloglist/ HTTP/1.1" 200 153
+[27/Dec/2013 10:09:44] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:09:44] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:09:44] "POST /blog/bloglist/ HTTP/1.1" 200 162
+[27/Dec/2013 10:09:44] "POST /blog/bloglist/ HTTP/1.1" 200 132
+[27/Dec/2013 10:09:53] "POST /blog/notice/ HTTP/1.1" 200 75
+[27/Dec/2013 10:09:54] "POST /blog/bloglist/ HTTP/1.1" 200 132
+[27/Dec/2013 10:09:54] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:09:54] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:09:54] "POST /blog/bloglist/ HTTP/1.1" 200 102
+[27/Dec/2013 10:09:54] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:10:04] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:10:04] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:10:04] "POST /blog/bloglist/ HTTP/1.1" 200 138
+[27/Dec/2013 10:10:05] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:10:05] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:10:05] "POST /blog/notice/ HTTP/1.1" 200 65
+[27/Dec/2013 10:10:08] "GET / HTTP/1.1" 200 2884
+[27/Dec/2013 10:10:08] "GET /static/webpage/css/Client/head.css HTTP/1.1" 304 0
+[27/Dec/2013 10:10:09] "POST /blog/notice/ HTTP/1.1" 200 75
+[27/Dec/2013 10:10:09] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:10:09] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:10:09] "POST /blog/bloglist/ HTTP/1.1" 200 276
+[27/Dec/2013 10:10:09] "POST /blog/bloglist/ HTTP/1.1" 200 168
+[27/Dec/2013 10:10:09] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:10:09] "POST /blog/bloglist/ HTTP/1.1" 200 237
+[27/Dec/2013 10:10:09] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:10:09] "POST /blog/bloglist/ HTTP/1.1" 200 141
+[27/Dec/2013 10:10:09] "POST /blog/bloglist/ HTTP/1.1" 200 156
+[27/Dec/2013 10:10:09] "POST /blog/bloglist/ HTTP/1.1" 200 103
+--------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+P[27/Dec/2013 10:10:09] "POST /blog/bloglist/ HTTP/1.1" 200 153
+[27/Dec/2013 10:10:09] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:10:09] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:10:09] "POST /blog/bloglist/ HTTP/1.1" 200 162
+[27/Dec/2013 10:10:09] "POST /blog/bloglist/ HTTP/1.1" 200 132
+[27/Dec/2013 10:10:09] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:10:09] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:10:09] "POST /blog/bloglist/ HTTP/1.1" 200 102
+[27/Dec/2013 10:10:09] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:10:09] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:10:09] "POST /blog/bloglist/ HTTP/1.1" 200 138
+[27/Dec/2013 10:10:09] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:10:09] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:10:09] "POST /blog/bloglist/ HTTP/1.1" 200 109
+[27/Dec/2013 10:10:09] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:10:09] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:10:09] "POST /blog/bloglist/ HTTP/1.1" 200 155
+[27/Dec/2013 10:10:09] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:10:09] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:10:09] "POST /blog/bloglist/ HTTP/1.1" 200 92
+[27/Dec/2013 10:10:09] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:10:09] "POST /blog/bloglist/ HTTP/1.1" 200 192
+[27/Dec/2013 10:10:09] "POST /blog/bloglist/ HTTP/1.1" 200 96
+[27/Dec/2013 10:10:10] "POST /blog/bloglist/ HTTP/1.1" 200 109
+[27/Dec/2013 10:10:10] "POST /blog/bloglist/ HTTP/1.1" 200 96
+[27/Dec/2013 10:10:10] "POST /blog/bloglist/ HTTP/1.1" 200 98
+[27/Dec/2013 10:10:10] "POST /blog/bloglist/ HTTP/1.1" 200 227
+[27/Dec/2013 10:10:10] "POST /blog/bloglist/ HTTP/1.1" 200 186
+[27/Dec/2013 10:10:10] "POST /blog/bloglist/ HTTP/1.1" 200 124
+[27/Dec/2013 10:10:10] "POST /blog/bloglist/ HTTP/1.1" 200 155
+[27/Dec/2013 10:10:10] "POST /blog/bloglist/ HTTP/1.1" 200 154
+[27/Dec/2013 10:10:10] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:10:10] "POST /blog/bloglist/ HTTP/1.1" 200 97
+[27/Dec/2013 10:10:10] "POST /blog/bloglist/ HTTP/1.1" 200 102
+[27/Dec/2013 10:10:10] "POST /blog/bloglist/ HTTP/1.1" 200 103
+[27/Dec/2013 10:10:10] "POST /blog/bloglist/ HTTP/1.1" 200 174
+[27/Dec/2013 10:10:10] "POST /blog/bloglist/ HTTP/1.1" 200 102
+[27/Dec/2013 10:10:10] "POST /blog/bloglist/ HTTP/1.1" 200 35
+Internal Server Error: /blog/publish/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/diannorway/server/python/diango/DianTV/blog/views.py", line 114, in publish
+    print author
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-1: ordinal not in range(128)
+[27/Dec/2013 10:10:11] "POST /blog/publish/ HTTP/1.1" 500 10331
+Internal Server Error: /blog/publish/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/diannorway/server/python/diango/DianTV/blog/views.py", line 114, in publish
+    print author
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-1: ordinal not in range(128)
+[27/Dec/2013 10:10:11] "POST /blog/publish/ HTTP/1.1" 500 10331
+Internal Server Error: /blog/publish/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/diannorway/server/python/diango/DianTV/blog/views.py", line 114, in publish
+    print author
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-1: ordinal not in range(128)
+[27/Dec/2013 10:10:11] "POST /blog/publish/ HTTP/1.1" 500 10331
+[27/Dec/2013 10:10:15] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:10:15] "POST /blog/bloglist/ HTTP/1.1" 200 109
+[27/Dec/2013 10:10:15] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:10:15] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:10:15] "POST /blog/bloglist/ HTTP/1.1" 200 155
+[27/Dec/2013 10:10:17] "POST /blog/notice/ HTTP/1.1" 200 75
+Internal Server Error: /blog/publish/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/diannorway/server/python/diango/DianTV/blog/views.py", line 114, in publish
+    print author
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-1: ordinal not in range(128)
+[27/Dec/2013 10:10:17] "POST /blog/publish/ HTTP/1.1" 500 10331
+Internal Server Error: /blog/publish/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/diannorway/server/python/diango/DianTV/blog/views.py", line 114, in publish
+    print author
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-1: ordinal not in range(128)
+[27/Dec/2013 10:10:17] "POST /blog/publish/ HTTP/1.1" 500 10330
+Internal Server Error: /blog/publish/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/diannorway/server/python/diango/DianTV/blog/views.py", line 114, in publish
+    print author
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-1: ordinal not in range(128)
+[27/Dec/2013 10:10:20] "POST /blog/publish/ HTTP/1.1" 500 10331
+[27/Dec/2013 10:10:25] "POST /blog/bloglist/ HTTP/1.1" 200 155
+[27/Dec/2013 10:10:25] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:10:25] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:10:25] "POST /blog/bloglist/ HTTP/1.1" 200 92
+[27/Dec/2013 10:10:25] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:10:25] "POST /blog/bloglist/ HTTP/1.1" 200 192
+[27/Dec/2013 10:10:29] "POST /blog/notice/ HTTP/1.1" 200 65
+[27/Dec/2013 10:10:35] "POST /blog/bloglist/ HTTP/1.1" 200 192
+[27/Dec/2013 10:10:35] "POST /blog/bloglist/ HTTP/1.1" 200 96
+[27/Dec/2013 10:10:35] "POST /blog/bloglist/ HTTP/1.1" 200 109
+[27/Dec/2013 10:10:35] "POST /blog/bloglist/ HTTP/1.1" 200 96
+[27/Dec/2013 10:10:35] "POST /blog/bloglist/ HTTP/1.1" 200 98
+[27/Dec/2013 10:10:35] "POST /blog/bloglist/ HTTP/1.1" 200 227
+Internal Server Error: /blog/publish/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/diannorway/server/python/diango/DianTV/blog/views.py", line 114, in publish
+    print author
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-1: ordinal not in range(128)
+[27/Dec/2013 10:10:40] "POST /blog/publish/ HTTP/1.1" 500 10331
+[27/Dec/2013 10:10:41] "POST /blog/notice/ HTTP/1.1" 200 75
+[27/Dec/2013 10:10:45] "POST /blog/bloglist/ HTTP/1.1" 200 227
+[27/Dec/2013 10:10:45] "POST /blog/bloglist/ HTTP/1.1" 200 186
+[27/Dec/2013 10:10:53] "POST /blog/notice/ HTTP/1.1" 200 65
+[27/Dec/2013 10:10:53] "POST /blog/publish/ HTTP/1.1" 200 30
+[27/Dec/2013 10:10:53] "GET / HTTP/1.1" 200 2884
+[27/Dec/2013 10:10:53] "GET /static/webpage/js/lib/require.js HTTP/1.1" 304 0
+[27/Dec/2013 10:10:53] "GET /static/webpage/css/basic.css HTTP/1.1" 304 0
+[27/Dec/2013 10:10:53] "GET /static/webpage/css/Client/head.css HTTP/1.1" 304 0
+[27/Dec/2013 10:10:53] "GET /static/webpage/css/Client/body.css HTTP/1.1" 304 0
+[27/Dec/2013 10:10:53] "GET /static/webpage/css/Client/text.css HTTP/1.1" 304 0
+[27/Dec/2013 10:10:53] "GET /static/webpage/img/dianTV_client/%E5%B7%A6%E8%BE%B9%E8%89%B2%E5%9D%97.png HTTP/1.1" 304 0
+[27/Dec/2013 10:10:53] "GET /static/webpage/css/Client/other.css HTTP/1.1" 304 0
+[27/Dec/2013 10:10:53] "GET /static/webpage/img/dianTV_client/DNTVlogo.png HTTP/1.1" 304 0
+[27/Dec/2013 10:10:53] "GET /static/webpage/img/dianTV_client/dianlogo.png HTTP/1.1" 304 0
+[27/Dec/2013 10:10:53] "GET /static/webpage/img/dianTV_client/%E5%8F%91%E9%80%81.png HTTP/1.1" 304 0
+[27/Dec/2013 10:10:53] "GET /static/webpage/img/dianTV_client/%E5%8F%B3%E8%BE%B9%E8%89%B2%E5%9D%97.png HTTP/1.1" 304 0
+[27/Dec/2013 10:10:53] "GET /static/webpage/img/dianTV_client/%E6%B5%B7%E8%B1%9A.png HTTP/1.1" 304 0
+[27/Dec/2013 10:10:53] "GET /static/webpage/js/script/Client/main.js HTTP/1.1" 304 0
+[27/Dec/2013 10:10:53] "POST /blog/notice/ HTTP/1.1" 200 75
+[27/Dec/2013 10:10:53] "POST /blog/bloglist/ HTTP/1.1" 200 80
+[27/Dec/2013 10:10:53] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:10:53] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:10:53] "POST /blog/bloglist/ HTTP/1.1" 200 276
+[27/Dec/2013 10:10:53] "POST /blog/bloglist/ HTTP/1.1" 200 168
+[27/Dec/2013 10:10:53] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:10:53] "POST /blog/bloglist/ HTTP/1.1" 200 237
+[27/Dec/2013 10:10:53] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:10:53] "POST /blog/bloglist/ HTTP/1.1" 200 141
+[27/Dec/2013 10:10:53] "POST /blog/bloglist/ HTTP/1.1" 200 156
+[27/Dec/2013 10:10:53] "POST /blog/bloglist/ HTTP/1.1" 200 103
+[27/Dec/2013 10:10:53] "POST /blog/bloglist/ HTTP/1.1" 200 153
+[27/Dec/2013 10:10:54] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:10:54] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:10:54] "POST /blog/bloglist/ HTTP/1.1" 200 162
+[27/Dec/2013 10:10:54] "POST /blog/bloglist/ HTTP/1.1" 200 132
+[27/Dec/2013 10:10:54] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:10:54] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:10:54] "POST /blog/bloglist/ HTTP/1.1" 200 102
+[27/Dec/2013 10:10:54] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:10:54] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:10:54] "POST /blog/bloglist/ HTTP/1.1" 200 138
+[27/Dec/2013 10:10:54] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:10:54] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:10:54] "POST /blog/bloglist/ HTTP/1.1" 200 109
+[27/Dec/2013 10:10:54] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:10:54] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:10:54] "POST /blog/bloglist/ HTTP/1.1" 200 155
+[27/Dec/2013 10:10:54] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:10:54] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:10:54] "POST /blog/bloglist/ HTTP/1.1" 200 92
+[27/Dec/2013 10:10:54] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:10:54] "POST /blog/bloglist/ HTTP/1.1" 200 192
+[27/Dec/2013 10:10:54] "POST /blog/bloglist/ HTTP/1.1" 200 96
+[27/Dec/2013 10:10:54] "POST /blog/bloglist/ HTTP/1.1" 200 109
+[27/Dec/2013 10:10:54] "POST /blog/bloglist/ HTTP/1.1" 200 96
+[27/Dec/2013 10:10:54] "POST /blog/bloglist/ HTTP/1.1" 200 98
+[27/Dec/2013 10:10:54] "POST /blog/bloglist/ HTTP/1.1" 200 227
+[27/Dec/2013 10:10:54] "POST /blog/bloglist/ HTTP/1.1" 200 186
+[27/Dec/2013 10:10:54] "POST /blog/bloglist/ HTTP/1.1" 200 124
+[27/Dec/2013 10:10:54] "POST /blog/bloglist/ HTTP/1.1" 200 155
+[27/Dec/2013 10:10:54] "POST /blog/bloglist/ HTTP/1.1" 200 154
+[27/Dec/2013 10:10:54] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:10:54] "POST /blog/bloglist/ HTTP/1.1" 200 97
+[27/Dec/2013 10:10:54] "POST /blog/bloglist/ HTTP/1.1" 200 102
+[27/Dec/2013 10:10:54] "POST /blog/bloglist/ HTTP/1.1" 200 103
+[27/Dec/2013 10:10:54] "POST /blog/bloglist/ HTTP/1.1" 200 174
+[27/Dec/2013 10:10:55] "POST /blog/bloglist/ HTTP/1.1" 200 102
+[27/Dec/2013 10:10:55] "POST /blog/bloglist/ HTTP/1.1" 200 35
+[27/Dec/2013 10:10:55] "POST /blog/bloglist/ HTTP/1.1" 200 227
+[27/Dec/2013 10:10:55] "POST /blog/bloglist/ HTTP/1.1" 200 186
+[27/Dec/2013 10:11:05] "POST /blog/notice/ HTTP/1.1" 200 75
+[27/Dec/2013 10:11:05] "POST /blog/bloglist/ HTTP/1.1" 200 186
+[27/Dec/2013 10:11:05] "POST /blog/bloglist/ HTTP/1.1" 200 124
+OST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+1(709)
+author: 1(709) message: 1
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+----------[27/Dec/2013 10:11:05] "POST /blog/bloglist/ HTTP/1.1" 200 155
+[27/Dec/2013 10:11:15] "POST /blog/bloglist/ HTTP/1.1" 200 155
+[27/Dec/2013 10:11:16] "POST /blog/bloglist/ HTTP/1.1" 200 154
+[27/Dec/2013 10:11:16] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:11:16] "POST /blog/bloglist/ HTTP/1.1" 200 97
+[27/Dec/2013 10:11:17] "POST /blog/notice/ HTTP/1.1" 200 65
+[27/Dec/2013 10:11:19] "POST /blog/publish/ HTTP/1.1" 200 30
+[27/Dec/2013 10:11:19] "GET /diantv/mobile/ HTTP/1.1" 200 2105
+[27/Dec/2013 10:11:20] "GET /static/webpage/js/lib/jquery-1.7.1.min.js HTTP/1.1" 304 0
+[27/Dec/2013 10:11:20] "GET /static/webpage/js/script/Mobile/Moblie.js HTTP/1.1" 304 0
+[27/Dec/2013 10:11:20] "GET /static/webpage/css/basic.css HTTP/1.1" 304 0
+[27/Dec/2013 10:11:20] "GET /static/webpage/css/Mobile/mobile.css HTTP/1.1" 304 0
+[27/Dec/2013 10:11:20] "GET /static/webpage/img/dianTV_client/DNTVlogo.png HTTP/1.1" 304 0
+[27/Dec/2013 10:11:20] "POST /blog/bloglist/ HTTP/1.1" 200 80
+[27/Dec/2013 10:11:20] "POST /blog/bloglist/ HTTP/1.1" 200 80
+[27/Dec/2013 10:11:20] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:11:20] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:11:20] "POST /blog/bloglist/ HTTP/1.1" 200 276
+[27/Dec/2013 10:11:20] "POST /blog/bloglist/ HTTP/1.1" 200 168
+[27/Dec/2013 10:11:20] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:11:20] "POST /blog/bloglist/ HTTP/1.1" 200 237
+[27/Dec/2013 10:11:20] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:11:20] "POST /blog/bloglist/ HTTP/1.1" 200 141
+[27/Dec/2013 10:11:20] "POST /blog/bloglist/ HTTP/1.1" 200 156
+[27/Dec/2013 10:11:26] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:11:26] "POST /blog/bloglist/ HTTP/1.1" 200 97
+[27/Dec/2013 10:11:26] "POST /blog/bloglist/ HTTP/1.1" 200 102
+[27/Dec/2013 10:11:26] "POST /blog/bloglist/ HTTP/1.1" 200 103
+[27/Dec/2013 10:11:26] "POST /blog/bloglist/ HTTP/1.1" 200 174
+[27/Dec/2013 10:11:29] "POST /blog/notice/ HTTP/1.1" 200 75
+[27/Dec/2013 10:11:36] "POST /blog/bloglist/ HTTP/1.1" 200 174
+[27/Dec/2013 10:11:36] "POST /blog/bloglist/ HTTP/1.1" 200 102
+[27/Dec/2013 10:11:36] "POST /blog/bloglist/ HTTP/1.1" 200 35
+[27/Dec/2013 10:11:41] "POST /blog/notice/ HTTP/1.1" 200 65
+[27/Dec/2013 10:11:53] "POST /blog/notice/ HTTP/1.1" 200 75
+[27/Dec/2013 10:11:58] "POST /blog/bloglist/ HTTP/1.1" 200 80
+[27/Dec/2013 10:11:58] "POST /blog/bloglist/ HTTP/1.1" 200 80
+[27/Dec/2013 10:11:58] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:11:58] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:11:58] "POST /blog/bloglist/ HTTP/1.1" 200 276
+[27/Dec/2013 10:11:58] "POST /blog/bloglist/ HTTP/1.1" 200 168
+[27/Dec/2013 10:11:58] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:11:58] "POST /blog/bloglist/ HTTP/1.1" 200 237
+[27/Dec/2013 10:11:58] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:11:58] "POST /blog/bloglist/ HTTP/1.1" 200 141
+[27/Dec/2013 10:11:58] "POST /blog/bloglist/ HTTP/1.1" 200 156
+[27/Dec/2013 10:11:58] "POST /blog/bloglist/ HTTP/1.1" 200 103
+[27/Dec/2013 10:11:58] "POST /blog/bloglist/ HTTP/1.1" 200 153
+[27/Dec/2013 10:11:58] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:11:58] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:12:05] "POST /blog/notice/ HTTP/1.1" 200 65
+[27/Dec/2013 10:12:08] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:12:08] "POST /blog/bloglist/ HTTP/1.1" 200 162
+[27/Dec/2013 10:12:08] "POST /blog/bloglist/ HTTP/1.1" 200 132
+[27/Dec/2013 10:12:09] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:12:09] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:12:17] "POST /blog/notice/ HTTP/1.1" 200 75
+[27/Dec/2013 10:12:19] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:12:19] "POST /blog/bloglist/ HTTP/1.1" 200 102
+[27/Dec/2013 10:12:19] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:12:19] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:12:19] "POST /blog/bloglist/ HTTP/1.1" 200 138
+[27/Dec/2013 10:12:29] "POST /blog/bloglist/ HTTP/1.1" 200 138
+[27/Dec/2013 10:12:29] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:12:29] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:12:29] "POST /blog/bloglist/ HTTP/1.1" 200 109
+[27/Dec/2013 10:12:29] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:12:29] "POST /blog/notice/ HTTP/1.1" 200 65
+[27/Dec/2013 10:12:39] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:12:39] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:12:39] "POST /blog/bloglist/ HTTP/1.1" 200 155
+[27/Dec/2013 10:12:39] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:12:39] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:12:41] "POST /blog/notice/ HTTP/1.1" 200 75
+[27/Dec/2013 10:12:49] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:12:49] "POST /blog/bloglist/ HTTP/1.1" 200 92
+[27/Dec/2013 10:12:49] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:12:49] "POST /blog/bloglist/ HTTP/1.1" 200 192
+[27/Dec/2013 10:12:49] "POST /blog/bloglist/ HTTP/1.1" 200 96
+[27/Dec/2013 10:12:49] "POST /blog/bloglist/ HTTP/1.1" 200 109
+[27/Dec/2013 10:12:49] "POST /blog/bloglist/ HTTP/1.1" 200 96
+[27/Dec/2013 10:12:53] "POST /blog/notice/ HTTP/1.1" 200 65
+[27/Dec/2013 10:12:59] "POST /blog/bloglist/ HTTP/1.1" 200 96
+[27/Dec/2013 10:12:59] "POST /blog/bloglist/ HTTP/1.1" 200 98
+[27/Dec/2013 10:12:59] "POST /blog/bloglist/ HTTP/1.1" 200 227
+[27/Dec/2013 10:12:59] "POST /blog/bloglist/ HTTP/1.1" 200 186
+[27/Dec/2013 10:13:05] "POST /blog/notice/ HTTP/1.1" 200 75
+[27/Dec/2013 10:13:10] "POST /blog/bloglist/ HTTP/1.1" 200 186
+[27/Dec/2013 10:13:10] "POST /blog/bloglist/ HTTP/1.1" 200 124
+[27/Dec/2013 10:13:10] "POST /blog/bloglist/ HTTP/1.1" 200 155
+[27/Dec/2013 10:13:17] "POST /blog/notice/ HTTP/1.1" 200 65
+[27/Dec/2013 10:13:20] "POST /blog/bloglist/ HTTP/1.1" 200 155
+[27/Dec/2013 10:13:20] "POST /blog/bloglist/ HTTP/1.1" 200 154
+[27/Dec/2013 10:13:20] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:13:20] "POST /blog/bloglist/ HTTP/1.1" 200 97
+[27/Dec/2013 10:13:29] "POST /blog/notice/ HTTP/1.1" 200 75
+[27/Dec/2013 10:13:30] "POST /blog/bloglist/ HTTP/1.1" 200 97
+[27/Dec/2013 10:13:30] "POST /blog/bloglist/ HTTP/1.1" 200 102
+[27/Dec/2013 10:13:30] "POST /blog/bloglist/ HTTP/1.1" 200 103
+[27/Dec/2013 10:13:30] "POST /blog/bloglist/ HTTP/1.1" 200 174
+[27/Dec/2013 10:13:30] "POST /blog/bloglist/ HTTP/1.1" 200 102
+[27/Dec/2013 10:13:40] "POST /blog/bloglist/ HTTP/1.1" 200 102
+[27/Dec/2013 10:13:40] "POST /blog/bloglist/ HTTP/1.1" 200 35
+[27/Dec/2013 10:13:41] "POST /blog/notice/ HTTP/1.1" 200 65
+[27/Dec/2013 10:13:53] "POST /blog/notice/ HTTP/1.1" 200 75
+[27/Dec/2013 10:14:01] "POST /blog/bloglist/ HTTP/1.1" 200 80
+[27/Dec/2013 10:14:01] "POST /blog/bloglist/ HTTP/1.1" 200 80
+[27/Dec/2013 10:14:02] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:14:02] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:14:02] "POST /blog/bloglist/ HTTP/1.1" 200 276
+[27/Dec/2013 10:14:02] "POST /blog/bloglist/ HTTP/1.1" 200 168
+[27/Dec/2013 10:14:02] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:14:02] "POST /blog/bloglist/ HTTP/1.1" 200 237
+[27/Dec/2013 10:14:02] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:14:02] "POST /blog/bloglist/ HTTP/1.1" 200 141
+[27/Dec/2013 10:14:02] "POST /blog/bloglist/ HTTP/1.1" 200 156
+[27/Dec/2013 10:14:02] "POST /blog/bloglist/ HTTP/1.1" 200 103
+[27/Dec/2013 10:14:02] "POST /blog/bloglist/ HTTP/1.1" 200 153
+[27/Dec/2013 10:14:02] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:14:02] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:14:05] "POST /blog/notice/ HTTP/1.1" 200 65
+[27/Dec/2013 10:14:12] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:14:12] "POST /blog/bloglist/ HTTP/1.1" 200 162
+[27/Dec/2013 10:14:12] "POST /blog/bloglist/ HTTP/1.1" 200 132
+[27/Dec/2013 10:14:13] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:14:13] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:14:17] "POST /blog/notice/ HTTP/1.1" 200 75
+[27/Dec/2013 10:14:23] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:14:23] "POST /blog/bloglist/ HTTP/1.1" 200 102
+[27/Dec/2013 10:14:23] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:14:23] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:14:23] "POST /blog/bloglist/ HTTP/1.1" 200 138
+[27/Dec/2013 10:14:29] "POST /blog/notice/ HTTP/1.1" 200 65
+[27/Dec/2013 10:14:33] "POST /blog/bloglist/ HTTP/1.1" 200 138
+-----
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+1(709)
+author: 1(709) message: 1
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---[27/Dec/2013 10:14:33] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:14:33] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:14:33] "POST /blog/bloglist/ HTTP/1.1" 200 109
+[27/Dec/2013 10:14:33] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:14:41] "POST /blog/notice/ HTTP/1.1" 200 75
+[27/Dec/2013 10:14:43] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:14:43] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:14:43] "POST /blog/bloglist/ HTTP/1.1" 200 155
+[27/Dec/2013 10:14:43] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:14:43] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:14:53] "POST /blog/notice/ HTTP/1.1" 200 65
+[27/Dec/2013 10:14:53] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:14:53] "POST /blog/bloglist/ HTTP/1.1" 200 92
+[27/Dec/2013 10:14:53] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:14:53] "POST /blog/bloglist/ HTTP/1.1" 200 192
+[27/Dec/2013 10:14:53] "POST /blog/bloglist/ HTTP/1.1" 200 96
+[27/Dec/2013 10:14:53] "POST /blog/bloglist/ HTTP/1.1" 200 109
+[27/Dec/2013 10:14:53] "POST /blog/bloglist/ HTTP/1.1" 200 96
+[27/Dec/2013 10:15:03] "POST /blog/bloglist/ HTTP/1.1" 200 96
+[27/Dec/2013 10:15:03] "POST /blog/bloglist/ HTTP/1.1" 200 98
+[27/Dec/2013 10:15:03] "POST /blog/bloglist/ HTTP/1.1" 200 227
+[27/Dec/2013 10:15:03] "POST /blog/bloglist/ HTTP/1.1" 200 186
+[27/Dec/2013 10:15:05] "POST /blog/notice/ HTTP/1.1" 200 75
+[27/Dec/2013 10:15:13] "POST /blog/bloglist/ HTTP/1.1" 200 186
+[27/Dec/2013 10:15:14] "POST /blog/bloglist/ HTTP/1.1" 200 124
+[27/Dec/2013 10:15:14] "POST /blog/bloglist/ HTTP/1.1" 200 155
+[27/Dec/2013 10:15:17] "POST /blog/notice/ HTTP/1.1" 200 65
+[27/Dec/2013 10:15:24] "POST /blog/bloglist/ HTTP/1.1" 200 155
+[27/Dec/2013 10:15:24] "POST /blog/bloglist/ HTTP/1.1" 200 154
+[27/Dec/2013 10:15:24] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:15:24] "POST /blog/bloglist/ HTTP/1.1" 200 97
+[27/Dec/2013 10:15:28] "GET /diantv/show/ HTTP/1.1" 200 1437
+[27/Dec/2013 10:15:28] "GET /static/webpage/css/Show/notice.css HTTP/1.1" 200 875
+[27/Dec/2013 10:15:28] "GET /static/webpage/css/Show/blog.css HTTP/1.1" 200 1197
+[27/Dec/2013 10:15:28] "GET /static/webpage/css/Show/other.css HTTP/1.1" 200 514
+[27/Dec/2013 10:15:28] "GET /static/webpage/img/%E4%BA%8C%E7%BB%B4%E7%A0%81.png HTTP/1.1" 200 14892
+[27/Dec/2013 10:15:28] "GET /static/webpage/img/logo.png HTTP/1.1" 200 32457
+[27/Dec/2013 10:15:28] "GET /static/webpage/js/script/Show/main.js HTTP/1.1" 200 1307
+[27/Dec/2013 10:15:28] "GET /static/webpage/js/script/Show/Config.js HTTP/1.1" 200 65
+[27/Dec/2013 10:15:28] "GET /static/webpage/js/script/Show/WindowSize.js HTTP/1.1" 200 787
+[27/Dec/2013 10:15:28] "GET /static/webpage/js/script/Show/CheckContent.js HTTP/1.1" 200 356
+[27/Dec/2013 10:15:28] "GET /static/webpage/js/script/Show/Animation.js HTTP/1.1" 200 910
+[27/Dec/2013 10:15:28] "GET /static/webpage/js/script/Show/Event.js HTTP/1.1" 200 49
+[27/Dec/2013 10:15:28] "GET /static/webpage/js/script/Show/Blog.js HTTP/1.1" 200 4445
+[27/Dec/2013 10:15:28] "GET /static/webpage/js/script/Show/Notice.js HTTP/1.1" 200 1846
+[27/Dec/2013 10:15:28] "POST /blog/notice/ HTTP/1.1" 200 75
+[27/Dec/2013 10:15:28] "POST /blog/notice/ HTTP/1.1" 200 65
+[27/Dec/2013 10:15:28] "POST /blog/bloglist/ HTTP/1.1" 200 80
+[27/Dec/2013 10:15:28] "POST /blog/bloglist/ HTTP/1.1" 200 80
+[27/Dec/2013 10:15:28] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:15:28] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:15:28] "POST /blog/bloglist/ HTTP/1.1" 200 276
+[27/Dec/2013 10:15:29] "POST /blog/bloglist/ HTTP/1.1" 200 168
+[27/Dec/2013 10:15:29] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:15:29] "POST /blog/bloglist/ HTTP/1.1" 200 237
+[27/Dec/2013 10:15:29] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:15:29] "POST /blog/bloglist/ HTTP/1.1" 200 141
+[27/Dec/2013 10:15:29] "POST /blog/bloglist/ HTTP/1.1" 200 156
+[27/Dec/2013 10:15:29] "POST /blog/bloglist/ HTTP/1.1" 200 103
+[27/Dec/2013 10:15:29] "POST /blog/bloglist/ HTTP/1.1" 200 153
+[27/Dec/2013 10:15:29] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:15:29] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:15:29] "POST /blog/bloglist/ HTTP/1.1" 200 162
+[27/Dec/2013 10:15:29] "POST /blog/bloglist/ HTTP/1.1" 200 132
+[27/Dec/2013 10:15:29] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:15:29] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:15:29] "POST /blog/bloglist/ HTTP/1.1" 200 102
+[27/Dec/2013 10:15:29] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:15:29] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:15:29] "POST /blog/bloglist/ HTTP/1.1" 200 138
+[27/Dec/2013 10:15:29] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:15:29] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:15:29] "POST /blog/bloglist/ HTTP/1.1" 200 109
+[27/Dec/2013 10:15:29] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:15:29] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:15:29] "POST /blog/bloglist/ HTTP/1.1" 200 155
+[27/Dec/2013 10:15:29] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:15:29] "POST /blog/notice/ HTTP/1.1" 200 75
+[27/Dec/2013 10:15:29] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:15:29] "POST /blog/bloglist/ HTTP/1.1" 200 92
+[27/Dec/2013 10:15:29] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:15:29] "POST /blog/bloglist/ HTTP/1.1" 200 192
+[27/Dec/2013 10:15:29] "POST /blog/bloglist/ HTTP/1.1" 200 96
+[27/Dec/2013 10:15:29] "POST /blog/bloglist/ HTTP/1.1" 200 109
+[27/Dec/2013 10:15:29] "POST /blog/bloglist/ HTTP/1.1" 200 96
+[27/Dec/2013 10:15:29] "POST /blog/bloglist/ HTTP/1.1" 200 98
+[27/Dec/2013 10:15:29] "POST /blog/bloglist/ HTTP/1.1" 200 227
+[27/Dec/2013 10:15:29] "POST /blog/bloglist/ HTTP/1.1" 200 186
+[27/Dec/2013 10:15:29] "POST /blog/bloglist/ HTTP/1.1" 200 124
+[27/Dec/2013 10:15:29] "POST /blog/bloglist/ HTTP/1.1" 200 155
+[27/Dec/2013 10:15:29] "POST /blog/bloglist/ HTTP/1.1" 200 154
+[27/Dec/2013 10:15:29] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:15:29] "POST /blog/bloglist/ HTTP/1.1" 200 97
+[27/Dec/2013 10:15:30] "POST /blog/bloglist/ HTTP/1.1" 200 102
+[27/Dec/2013 10:15:30] "POST /blog/bloglist/ HTTP/1.1" 200 103
+[27/Dec/2013 10:15:30] "POST /blog/bloglist/ HTTP/1.1" 200 174
+[27/Dec/2013 10:15:30] "POST /blog/bloglist/ HTTP/1.1" 200 102
+[27/Dec/2013 10:15:30] "POST /blog/bloglist/ HTTP/1.1" 200 35
+[27/Dec/2013 10:15:34] "POST /blog/bloglist/ HTTP/1.1" 200 97
+[27/Dec/2013 10:15:34] "POST /blog/bloglist/ HTTP/1.1" 200 102
+[27/Dec/2013 10:15:34] "POST /blog/bloglist/ HTTP/1.1" 200 103
+[27/Dec/2013 10:15:34] "POST /blog/bloglist/ HTTP/1.1" 200 174
+[27/Dec/2013 10:15:34] "POST /blog/bloglist/ HTTP/1.1" 200 102
+[27/Dec/2013 10:15:37] "GET /diantv/mobile/ HTTP/1.1" 200 2105
+[27/Dec/2013 10:15:38] "POST /blog/bloglist/ HTTP/1.1" 200 80
+[27/Dec/2013 10:15:38] "GET /static/webpage/img/dianTV_client/DNTVlogo.png HTTP/1.1" 304 0
+[27/Dec/2013 10:15:39] "POST /blog/bloglist/ HTTP/1.1" 200 80
+[27/Dec/2013 10:15:39] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:15:39] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:15:39] "POST /blog/bloglist/ HTTP/1.1" 200 276
+[27/Dec/2013 10:15:39] "POST /blog/bloglist/ HTTP/1.1" 200 168
+[27/Dec/2013 10:15:39] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:15:39] "POST /blog/bloglist/ HTTP/1.1" 200 237
+[27/Dec/2013 10:15:39] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:15:39] "POST /blog/bloglist/ HTTP/1.1" 200 141
+[27/Dec/2013 10:15:40] "POST /blog/bloglist/ HTTP/1.1" 200 156
+[27/Dec/2013 10:15:41] "POST /blog/notice/ HTTP/1.1" 200 65
+[27/Dec/2013 10:15:44] "POST /blog/bloglist/ HTTP/1.1" 200 102
+[27/Dec/2013 10:15:44] "POST /blog/bloglist/ HTTP/1.1" 200 35
+[27/Dec/2013 10:15:53] "POST /blog/notice/ HTTP/1.1" 200 75
+Internal Server Error: /blog/publish/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/diannorway/server/python/diango/DianTV/blog/views.py", line 114, in publish
+    print author
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-1: ordinal not in range(128)
+[27/Dec/2013 10:15:59] "POST /blog/publish/ HTTP/1.1" 500 10626
+[27/Dec/2013 10:16:00] "GET /diantv/show/ HTTP/1.1" 200 1437
+[27/Dec/2013 10:16:00] "POST /blog/notice/ HTTP/1.1" 200 75
+[27/Dec/2013 10:16:00] "POST /blog/notice/ HTTP/1.1" 200 65
+[27/Dec/2013 10:16:00] "POST /blog/bloglist/ HTTP/1.1" 200 80
+[27/Dec/2013 10:16:00] "POST /blog/bloglist/ HTTP/1.1" 200 80
+[27/Dec/2013 10:16:00] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:16:00] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:16:00] "POST /blog/bloglist/ HTTP/1.1" 200 276
+[27/Dec/2013 10:16:00] "POST /blog/bloglist/ HTTP/1.1" 200 168
+[27/Dec/2013 10:16:00] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:16:01] "POST /blog/bloglist/ HTTP/1.1" 200 237
+[27/Dec/2013 10:16:01] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:16:01] "POST /blog/bloglist/ HTTP/1.1" 200 141
+[27/Dec/2013 10:16:01] "POST /blog/bloglist/ HTTP/1.1" 200 156
+[27/Dec/2013 10:16:01] "POST /blog/bloglist/ HTTP/1.1" 200 103
+[27/Dec/2013 10:16:01] "POST /blog/bloglist/ HTTP/1.1" 200 153
+[27/Dec/2013 10:16:01] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:16:01] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:16:05] "GET /diantv/show/ HTTP/1.1" 200 1437
+[27/Dec/2013 10:16:05] "GET /static/webpage/js/lib/require.js HTTP/1.1" 304 0
+[27/Dec/2013 10:16:05] "GET /static/webpage/css/basic.css HTTP/1.1" 304 0
+[27/Dec/2013 10:16:05] "GET /static/webpage/css/Show/notice.css HTTP/1.1" 304 0
+[27/Dec/2013 10:16:05] "GET /static/webpage/css/Show/blog.css HTTP/1.1" 304 0
+[27/Dec/2013 10:16:05] "GET /static/webpage/css/Show/other.css HTTP/1.1" 304 0
+[27/Dec/2013 10:16:05] "GET /static/webpage/img/logo.png HTTP/1.1" 304 0
+[27/Dec/2013 10:16:05] "GET /static/webpage/img/%E4%BA%8C%E7%BB%B4%E7%A0%81.png HTTP/1.1" 304 0
+[27/Dec/2013 10:16:05] "GET /static/webpage/js/script/Show/main.js HTTP/1.1" 304 0
+[27/Dec/2013 10:16:05] "POST /blog/notice/ HTTP/1.1" 200 75
+[27/Dec/2013 10:16:05] "POST /blog/notice/ HTTP/1.1" 200 65
+------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+--------[27/Dec/2013 10:16:05] "POST /blog/bloglist/ HTTP/1.1" 200 80
+[27/Dec/2013 10:16:05] "POST /blog/bloglist/ HTTP/1.1" 200 80
+[27/Dec/2013 10:16:05] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:16:05] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:16:05] "POST /blog/bloglist/ HTTP/1.1" 200 276
+[27/Dec/2013 10:16:05] "POST /blog/bloglist/ HTTP/1.1" 200 168
+[27/Dec/2013 10:16:05] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:16:05] "POST /blog/bloglist/ HTTP/1.1" 200 237
+[27/Dec/2013 10:16:05] "POST /blog/notice/ HTTP/1.1" 200 65
+[27/Dec/2013 10:16:05] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:16:05] "POST /blog/bloglist/ HTTP/1.1" 200 141
+[27/Dec/2013 10:16:05] "POST /blog/bloglist/ HTTP/1.1" 200 156
+[27/Dec/2013 10:16:05] "POST /blog/bloglist/ HTTP/1.1" 200 103
+[27/Dec/2013 10:16:05] "POST /blog/bloglist/ HTTP/1.1" 200 153
+[27/Dec/2013 10:16:05] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:16:05] "POST /blog/bloglist/ HTTP/1.1" 200 80
+[27/Dec/2013 10:16:06] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:16:06] "POST /blog/bloglist/ HTTP/1.1" 200 80
+[27/Dec/2013 10:16:06] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:16:06] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:16:06] "POST /blog/bloglist/ HTTP/1.1" 200 276
+[27/Dec/2013 10:16:06] "POST /blog/bloglist/ HTTP/1.1" 200 168
+[27/Dec/2013 10:16:06] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:16:06] "POST /blog/bloglist/ HTTP/1.1" 200 237
+[27/Dec/2013 10:16:06] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:16:06] "POST /blog/bloglist/ HTTP/1.1" 200 141
+[27/Dec/2013 10:16:06] "POST /blog/bloglist/ HTTP/1.1" 200 156
+[27/Dec/2013 10:16:06] "POST /blog/bloglist/ HTTP/1.1" 200 103
+[27/Dec/2013 10:16:06] "POST /blog/bloglist/ HTTP/1.1" 200 153
+[27/Dec/2013 10:16:06] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:16:06] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:16:14] "GET /diantv/mobile/ HTTP/1.1" 200 2105
+[27/Dec/2013 10:16:15] "POST /blog/bloglist/ HTTP/1.1" 200 80
+[27/Dec/2013 10:16:15] "POST /blog/bloglist/ HTTP/1.1" 200 80
+[27/Dec/2013 10:16:15] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:16:15] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:16:15] "POST /blog/bloglist/ HTTP/1.1" 200 276
+[27/Dec/2013 10:16:15] "POST /blog/bloglist/ HTTP/1.1" 200 168
+[27/Dec/2013 10:16:15] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:16:15] "POST /blog/bloglist/ HTTP/1.1" 200 237
+[27/Dec/2013 10:16:15] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:16:15] "POST /blog/bloglist/ HTTP/1.1" 200 141
+[27/Dec/2013 10:16:15] "POST /blog/bloglist/ HTTP/1.1" 200 156
+[27/Dec/2013 10:16:16] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:16:16] "POST /blog/bloglist/ HTTP/1.1" 200 162
+[27/Dec/2013 10:16:16] "POST /blog/bloglist/ HTTP/1.1" 200 132
+Internal Server Error: /blog/publish/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/diannorway/server/python/diango/DianTV/blog/views.py", line 114, in publish
+    print author
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-1: ordinal not in range(128)
+[27/Dec/2013 10:16:17] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:16:17] "POST /blog/publish/ HTTP/1.1" 500 10387
+[27/Dec/2013 10:16:17] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:16:17] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:16:17] "POST /blog/bloglist/ HTTP/1.1" 200 162
+[27/Dec/2013 10:16:17] "POST /blog/bloglist/ HTTP/1.1" 200 132
+[27/Dec/2013 10:16:17] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:16:17] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:16:17] "POST /blog/notice/ HTTP/1.1" 200 75
+Internal Server Error: /blog/publish/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/diannorway/server/python/diango/DianTV/blog/views.py", line 114, in publish
+    print author
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-1: ordinal not in range(128)
+[27/Dec/2013 10:16:21] "POST /blog/publish/ HTTP/1.1" 500 10387
+Internal Server Error: /blog/publish/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/diannorway/server/python/diango/DianTV/blog/views.py", line 114, in publish
+    print author
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-1: ordinal not in range(128)
+[27/Dec/2013 10:16:21] "POST /blog/publish/ HTTP/1.1" 500 10387
+Internal Server Error: /blog/publish/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 114, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/diannorway/server/python/diango/DianTV/blog/views.py", line 114, in publish
+    print author
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-1: ordinal not in range(128)
+[27/Dec/2013 10:16:22] "POST /blog/publish/ HTTP/1.1" 500 10387
+[27/Dec/2013 10:16:27] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:16:27] "POST /blog/bloglist/ HTTP/1.1" 200 102
+[27/Dec/2013 10:16:27] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:16:27] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:16:27] "POST /blog/bloglist/ HTTP/1.1" 200 138
+[27/Dec/2013 10:16:28] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:16:28] "POST /blog/bloglist/ HTTP/1.1" 200 102
+[27/Dec/2013 10:16:28] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:16:28] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:16:28] "POST /blog/bloglist/ HTTP/1.1" 200 138
+[27/Dec/2013 10:16:29] "POST /blog/notice/ HTTP/1.1" 200 65
+[27/Dec/2013 10:16:37] "POST /blog/bloglist/ HTTP/1.1" 200 138
+[27/Dec/2013 10:16:37] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:16:37] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:16:37] "POST /blog/bloglist/ HTTP/1.1" 200 109
+[27/Dec/2013 10:16:37] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:16:39] "POST /blog/bloglist/ HTTP/1.1" 200 138
+[27/Dec/2013 10:16:39] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:16:39] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:16:39] "POST /blog/bloglist/ HTTP/1.1" 200 109
+[27/Dec/2013 10:16:39] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:16:41] "POST /blog/notice/ HTTP/1.1" 200 75
+[27/Dec/2013 10:16:47] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:16:47] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:16:47] "POST /blog/bloglist/ HTTP/1.1" 200 155
+[27/Dec/2013 10:16:47] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:16:47] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:16:50] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:16:50] "POST /blog/bloglist/ HTTP/1.1" 200 108
+[27/Dec/2013 10:16:50] "POST /blog/bloglist/ HTTP/1.1" 200 155
+[27/Dec/2013 10:16:50] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:16:50] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:16:53] "POST /blog/notice/ HTTP/1.1" 200 65
+[27/Dec/2013 10:16:57] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:16:57] "POST /blog/bloglist/ HTTP/1.1" 200 92
+[27/Dec/2013 10:16:57] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:16:57] "POST /blog/bloglist/ HTTP/1.1" 200 192
+[27/Dec/2013 10:16:57] "POST /blog/bloglist/ HTTP/1.1" 200 96
+[27/Dec/2013 10:16:57] "POST /blog/bloglist/ HTTP/1.1" 200 109
+[27/Dec/2013 10:16:57] "POST /blog/bloglist/ HTTP/1.1" 200 96
+[27/Dec/2013 10:17:01] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:17:01] "POST /blog/bloglist/ HTTP/1.1" 200 92
+[27/Dec/2013 10:17:01] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:17:01] "POST /blog/bloglist/ HTTP/1.1" 200 192
+[27/Dec/2013 10:17:01] "POST /blog/bloglist/ HTTP/1.1" 200 96
+[27/Dec/2013 10:17:01] "POST /blog/bloglist/ HTTP/1.1" 200 109
+[27/Dec/2013 10:17:01] "POST /blog/bloglist/ HTTP/1.1" 200 96
+[27/Dec/2013 10:17:05] "POST /blog/notice/ HTTP/1.1" 200 75
+[27/Dec/2013 10:17:08] "POST /blog/bloglist/ HTTP/1.1" 200 96
+[27/Dec/2013 10:17:08] "POST /blog/bloglist/ HTTP/1.1" 200 98
+[27/Dec/2013 10:17:08] "POST /blog/bloglist/ HTTP/1.1" 200 227
+[27/Dec/2013 10:17:08] "POST /blog/bloglist/ HTTP/1.1" 200 186
+[27/Dec/2013 10:17:11] "POST /blog/bloglist/ HTTP/1.1" 200 80
+[27/Dec/2013 10:17:11] "POST /blog/bloglist/ HTTP/1.1" 200 80
+[27/Dec/2013 10:17:11] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:17:11] "POST /blog/bloglist/ HTTP/1.1" 200 90
+[27/Dec/2013 10:17:11] "POST /blog/bloglist/ HTTP/1.1" 200 276
+[27/Dec/2013 10:17:12] "POST /blog/bloglist/ HTTP/1.1" 200 168
+[27/Dec/2013 10:17:12] "POST /blog/bloglist/ HTTP/1.1" 200 126
+[27/Dec/2013 10:17:12] "POST /blog/bloglist/ HTTP/1.1" 200 237
+[27/Dec/2013 10:17:12] "POST /blog/bloglist/ HTTP/1.1" 200 120
+[27/Dec/2013 10:17:12] "POST /blog/bloglist/ HTTP/1.1" 200 141
+[27/Dec/2013 10:17:12] "POST /blog/bloglist/ HTTP/1.1" 200 96
+-------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST
+---------------
+---------------
+POST---------------
+POST
+---------------
+
+---------------
+---------------
+POST
+---------------
+---------------
+PO[27/Dec/2013 10:17:12] "POST /blog/bloglist/ HTTP/1.1" 200 98
+[27/Dec/2013 10:17:12] "POST /blog/bloglist/ HTTP/1.1" 200 156
+[27/Dec/2013 10:17:12] "POST /blog/bloglist/ HTTP/1.1" 200 227
+[27/Dec/2013 10:17:12] "POST /blog/bloglist/ HTTP/1.1" 200 186
+[27/Dec/2013 10:17:17] "POST /blog/notice/ HTTP/1.1" 200 65
+[27/Dec/2013 10:17:18] "POST /blog/bloglist/ HTTP/1.1" 200 186
+[27/Dec/2013 10:17:18] "POST /blog/bloglist/ HTTP/1.1" 200 124
+[27/Dec/2013 10:17:18] "POST /blog/bloglist/ HTTP/1.1" 200 155

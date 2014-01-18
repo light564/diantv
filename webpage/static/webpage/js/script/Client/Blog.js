@@ -116,7 +116,7 @@
 
 	var PostPoint = function(id){
 		var point = "<div id='point-"+id+"' class='point'>"+
-						"<img src='/static/webpage/img/dianTV_client/绿点.png'>"+
+						"<img src='/static/webpage/img/dianTV_client/green_point.png'>"+
 					"</div>";
 		return point;
 	}
