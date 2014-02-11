@@ -26,6 +26,14 @@
 	margin-top: 18px;
 	margin-bottom: 10px;
 }
+
+.reply{
+	height: 25px;
+	color: #999999;
+	font-size: 20px;
+	line-height: 12px;
+}
+
 /*防止发送图片过大*/
 .post-body img{
 	max-width: 350px;

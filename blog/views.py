@@ -39,6 +39,10 @@ def bloglist(request):
 
 	blognum = request.POST.get('number')
 	blognum = int(blognum)
+	maxnum  = request.POST.get('maxnumber')
+	if not maxnum:
+		maxnum = 999
+	maxnum = int(maxnum)
 
 	#print len(request.META.get('REMOTE_ADDR').split('.')[2])
 	# room = request.META.get('REMOTE_ADDR').split('.')[2]
@@ -53,7 +57,7 @@ def bloglist(request):
 	AllBlog = DianTVBlog.objects.all()
 	last = len(AllBlog)-1
 
-	if(blognum > last):
+	if(blognum > last) or (blognum > maxnum):
 		return ResponseJson({'ErrorMessage' : "No more message"})
 	response_info = BlogToJson(AllBlog[last - blognum])
 
@@ -87,14 +91,20 @@ def publish(request):
 	"""
 	check request
 	"""
+	key = 0
 	if request.method != 'POST':
 		return ResponseJson({'ErrorMessage' : "request method error"})
 
 	if request.POST.get('author') == None:
 		return ResponseJson({'ErrorMessage' : "No author"})
+	print request.POST.get('author')
 
 	if request.POST.get('message') == None:
 		return ResponseJson({'ErrorMessage' : "No message"})
+
+	if request.POST.get('EIid') != None:
+		key = 1
+		#print "key : 1"
 
 	author = request.POST.get('author')
 	message = request.POST.get('message')
@@ -108,21 +118,31 @@ def publish(request):
 	if len(message) == 0:
 		return ResponseJson({'ErrorMessage' : "message is empty"})
 
-	room = request.META.get('REMOTE_ADDR').split('.')[2]
-	if len(room) == 1:
-		author = author + "(70"+room+")"
-	if len(room) == 2:
-		author = author + "(7"+room+")"
-	if len(room) == 3:
-		author = author + "("+room+")"
+	if key == 0:
+		room = request.META.get('REMOTE_ADDR').split('.')[2]
+		if len(room) == 1:
+			author = author + "(70"+room+")"
+		if len(room) == 2:
+			author = author + "(7"+room+")"
+		if len(room) == 3:
+			author = author + "("+room+")"
 
-	#print author
+		blog = DianTVBlog(Author = author,
+						Content = message,
+						PublishData = datetime.datetime.now(),
+						EIid = ""
+				)
+		blog.save()
 
-	blog = DianTVBlog(Author = author,
-					Content = message,
-					PublishData = datetime.datetime.now()
-			)
-	blog.save()
+	if key == 1:
+		author = author + "(from eistart)"
+		blog = DianTVBlog(Author = author,
+						Content = message,
+						PublishData = request.POST.get('time'),
+						EIid = request.POST.get('EIid')
+					)
+
+		blog.save()
 	#print "author: " + author + " message: " + message
 	return ResponseJson({'Message' : "Publish Success"})
 

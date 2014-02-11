@@ -33,6 +33,11 @@
 		});
 	});
 
+	if(localStorage["UserName"]){
+		$("#publish-author").val(localStorage["UserName"]);
+		string2 = localStorage["UserName"];
+	}
+
 	$("#submit").bind("touchstart",function(){
 		var author = $("#publish-author").val();
 		var msg = $("#publish-msg").val();
@@ -45,6 +50,7 @@
 
 	function PublishMsg(author, msg){
 		var url = path+"publish/";
+		localStorage["UserName"] = author;
 		var data = {
 			"author" 	: 	author,
 			"message" 	: 	msg
@@ -121,7 +127,7 @@
 	}
 
 	function RemoveNode(str){
-		var dom = $("<p>"+str+"</p>");
+		var dom = $("<msg>"+str+"</msg>");
 		for(var i = 0; i < dom.length; i++){
 			if(dom[i].nodeName == "SCRIPT"){
 				return "此人恶意插入js";
@@ -130,7 +136,13 @@
 		if(dom.find('script').length > 0){
 			return "此人恶意插入js";
 		}
-		return $(dom).html();
+		var result = "";
+		for(var i = 0; i < dom.length; i++){
+			if($(dom[i]).text() != "" || dom[i].nodeName != "p"){
+				result += dom[i].outerHTML;
+			}
+		}
+		return result;
 	}
 
 	function PostContent(author, msg, time, id){

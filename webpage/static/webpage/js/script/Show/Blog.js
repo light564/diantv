@@ -3,7 +3,8 @@
 	this.GetBlog = function(conf){
 		var url = path+"bloglist/";
 		var data = {
-			"number" 	: 	number
+			"number" 	: 	number,
+			"maxnumber" :   30
 		};
 		$.ajax({
 			type: 	"POST",

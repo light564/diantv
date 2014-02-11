@@ -3,6 +3,21 @@
 		<meta charset="utf-8">
 		<script type="text/javascript" src="/static/webpage/js/script/BaseConfig.js"></script>
 		<script data-main="/static/webpage/js/script/Show/main.js" src="/static/webpage/js/lib/require.js" type="text/javascript"></script>
+		<script type="x-shader/x-fragment" id="shader-fs">
+			void main(void){
+				gl_FragColor = vec4(1.0, 1.0, 0.5, 0.8);//r g b 透明度?    决定画点的颜色
+			}
+		</script>
+		<script type="x-shader/x-vertex" id="shader-vs">
+			attribute vec3 aVertexPosition;
+
+			uniform mat4 uMVMatrix;
+			uniform mat4 uPMatrix;
+
+			void main(void){
+				gl_Position = uPMatrix * uMVMatrix * vec4(aVertexPosition, 1.0);
+			}
+		</script>
 		<link rel="stylesheet" type="text/css" href="/static/webpage/css/basic.css">
 		<link rel="stylesheet" type="text/css" href="/static/webpage/css/Show/notice.css">
 		<link rel="stylesheet" type="text/css" href="/static/webpage/css/Show/blog.css">

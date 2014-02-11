@@ -91,6 +91,8 @@
 		var year = time.substring(0, 4);
 		var month = time.substring(5, 7);
 		var day = time.substring(8, 10);
+		var like = 0;
+		var dislike = 0;
 		time = time.substring(11, 19);
 		id = number;
 		if(!msg)
@@ -103,8 +105,20 @@
 							"<div class='post-msg'>"+
 								msg+
 							"</div>"+
-							"<div class='time'>"+
-								year+"年"+month+"月"+day+"日"+
+							"<div class='msg-info'>"+
+								"<div class='comment left'>"+
+									"<div class='like left hide'>"+
+										"<img src='/static/webpage/img/dianTV_client/like1.png'>"+
+										"<div class='like-num left'>("+like+")</div>"+
+									"</div>"+
+									"<div class='dislike left hide'>"+
+										"<img src='/static/webpage/img/dianTV_client/dislike1.png'>"+
+										"<div class='dislike-num left'>("+dislike+")</div>"+
+									"</div>"+
+								"</div>"+
+								"<div class='time left'>"+
+									year+"年"+month+"月"+day+"日"+
+								"</div>"+
 							"</div>"+
 						"</div>"+
 						"<div class='triangle'>"+

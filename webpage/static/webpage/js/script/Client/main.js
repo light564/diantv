@@ -70,6 +70,10 @@ require(['jquery','Config','WindowSize','CheckContent','Blog','Event','Notice','
 		WindowSize.EleResize();
 		Blog.GetBlog();
 
+		if(localStorage["UserName"]){
+			$("#publish-author").val(localStorage["UserName"]);
+		}
+
 		$(document).click(function(event){
 			var target = event.target;
 			if(target.id == "publish-button" || $(target).parent().attr("id") == "publish-button"){
@@ -78,10 +82,12 @@ require(['jquery','Config','WindowSize','CheckContent','Blog','Event','Notice','
 				if(CheckContent.CheckInput(author, msg) == 1){
 					Publish.PublishMsg(author, msg);
 				}
+				return;
 			}
 
 			if(target.id == "goto-top" || $(target).parent().attr("id") == "goto-top"){
 				$(document).scrollTop(0);
+				return;
 			}
 
 			if(target.id != "publish-msg" && target.id != "publish-author"){
@@ -92,6 +98,13 @@ require(['jquery','Config','WindowSize','CheckContent','Blog','Event','Notice','
 					temp.fadeIn("3000");
 					temp.val(string1);
 				});
+			}
+			//赞和踩
+			if(target.nodeName == "IMG"){
+				var src = $(target).attr("src");
+				src = src.replace(/like1/,"like2");
+				$(target).attr("src",src);
+				return;
 			}
 		});
 

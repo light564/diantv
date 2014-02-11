@@ -7,13 +7,14 @@
 .post-box{
 	min-width: 254px;/*post-body-left-10*/
 	min-width: 95%;
+	max-width: 95%;
 	border: 1px solid #e4e4e2;
 	background-color: #f8f8ee;
 	margin-top: 24px;
 }
 
 .post-box img{
-         	max-width: 200px; 
+	max-width: 200px; 
 }
 
 #post-body-left .post-box{
@@ -76,4 +77,27 @@
 	bottom: 0;
 	width: 300px;
 	text-align: center;
+}
+
+.msg-info{
+	height: 22px;
+	width: 100%;
+}
+
+.comment, .time{
+	width: 50%;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.comment img{
+	float: left;
+}
+
+.comment img{
+	margin-top: -4px;
+}
+
+.dislike{
+	margin-left: 20px;
 }
